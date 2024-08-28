@@ -1,0 +1,5 @@
+Nyaya Bandhu’s (Pro Bono Legal Services) primary initiative is to establish a framework for dispensation
+of pro bono legal services across the country. Under Nyaya Bandhu, practising advocates, interested to
+volunteer their time and services, are connected, via mobile technology, with eligible marginalised
+beneficiaries. Nyaya Bandhu Mobile application (Android/IOS) has been developed and also onboarded on
+the UMANG platform in collaboration with technical partner CSC e-Governance Pvt. Ltd.

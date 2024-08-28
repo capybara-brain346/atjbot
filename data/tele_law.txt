@@ -1,0 +1,21 @@
+Tele-Law: Reaching the Unreached is an e-interface mechanism to seek legal advice and consultation at a pre-litigation stage. 
+It connects needy and marginalized in need of legal aid with the Panel Lawyers via video conferencing/telephonic facilities available at Common Service Centres (CSCs) situated at the Panchayat level. 
+Launched in 2017, the Tele-Law service is now directly accessible through the Tele-Law Mobile App (available on Android & IOS).
+
+Accessibility :
+Easy Connect via video conferencing/ telephonic facilities availing at CSCs, situated at the Panchayat level and through Tele-Law Mobile App.
+
+Affordability :
+Free of Cost For all Citizen.
+
+Frontline Functionaries :
+• Para Legal Volunteers (PLVs) have been stationed to act as intermediaries, bridging the gap between common people and the Tele-Law service, and also to create public awareness about Tele-Law.
+
+• Village Level Entrepreneurs (VLEs) who run the CSCs facilitate online registration of beneficiaries with Panel Lawyers.
+
+• Panel Lawyers have been positioned to provide legal advice and consultation to people.
+
+• State Coordinators manage different stakeholders in effective implementation of Tele-Law programme in States/UTs.
+
+Real-time Data :
+A dedicated Tele-Law dashboard has been developed to capture real-time data on nature of cases registered & advice enabled. This data has also been hosted on the Prayas Dashboard.
