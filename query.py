@@ -35,7 +35,7 @@ def main() -> None:
 
     Answer the question based on the above context in 50 to 80 words: {question}
     """
-    query_text = "What is NALSA?"
+    query_text = "What is Tele-Law?"
 
     print(query_rag(query_text=query_text, prompt_template=PROMPT_TEMPLATE))
 
