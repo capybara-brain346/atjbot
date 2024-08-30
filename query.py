@@ -33,9 +33,10 @@ def main() -> None:
 
     ---
 
-    Answer the question based on the above context in 50 to 80 words: {question}
+    Answer the question based on the above context in 50 to 80 words. If the question is not related to legal content respond with I cannot help with this query. : {question}
     """
-    query_text = "What is Tele-Law?"
+    query_text = "Tell me some frontline functionalities of Tele-Law step by step?"
+    print(f"Your question: {query_text}")
 
     print(query_rag(query_text=query_text, prompt_template=PROMPT_TEMPLATE))
 
