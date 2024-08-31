@@ -34,9 +34,9 @@ def query_rag(query_text: str, prompt_template: str) -> str:
         response = model.invoke(prompt)
 
         # Ensure response is a string
-        if hasattr(response, 'text'):
-            return response.text
-        return str(response)
+        if hasattr(response, 'content'):
+            return response.content.strip()
+        return str(response).strip()
 
     except Exception as e:
         logging.error(f"Error in query_rag: {e}")
