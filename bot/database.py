@@ -10,6 +10,8 @@ from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_community.document_loaders import DirectoryLoader, TextLoader
 from langchain.schema.document import Document
 
+from dotenv import load_dotenv
+load_dotenv()
 
 def load_documents(data_path: str) -> List[Document]:
     text_loader_kwargs = {"autodetect_encoding": True}
