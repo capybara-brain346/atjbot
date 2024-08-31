@@ -1,14 +1,17 @@
+import os
 import config
 from langchain_chroma import Chroma
 from langchain.prompts import ChatPromptTemplate
 from langchain_community.llms.ollama import Ollama
-from langchain_community.embeddings import OllamaEmbeddings
+from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_google_genai import GoogleGenerativeAIEmbeddings
+# from langchain_community.embeddings import OllamaEmbeddings
 
 
 def query_rag(query_text: str, prompt_template: str) -> str:
     db = Chroma(
         persist_directory=config.CHROMA_PATH,
-        embedding_function=OllamaEmbeddings(model="llama3.1"),
+        embedding_function=GoogleGenerativeAIEmbeddings(model="models/embedding-001"),
     )
 
     results = db.similarity_search_with_score(query_text, k=5)
@@ -17,7 +20,9 @@ def query_rag(query_text: str, prompt_template: str) -> str:
     prompt_template = ChatPromptTemplate.from_template(prompt_template)
     prompt = prompt_template.format(context=context_text, question=query_text)
 
-    model = Ollama(model="llama3.1")
+    model = ChatGoogleGenerativeAI(
+        model="gemini-1.5-flash", api_key=os.getenv("GOOGLE_API_KEY")
+    )
     response_text = model.invoke(prompt)
 
     formatted_response = f"Response: {response_text}"

@@ -1,2 +1,2 @@
-CHROMA_PATH = "chroma"
-DATA_DIRECTORY = "data"
+CHROMA_PATH = "bot\chroma"
+DATA_DIRECTORY = "bot\data"

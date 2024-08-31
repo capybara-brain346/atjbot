@@ -4,7 +4,9 @@ import shutil
 from typing import List
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_chroma import Chroma
-from langchain_community.embeddings import OllamaEmbeddings
+
+# from langchain_community.embeddings import OllamaEmbeddings
+from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_community.document_loaders import DirectoryLoader, TextLoader
 from langchain.schema.document import Document
 
@@ -56,7 +58,7 @@ def calculate_chunk_ids(chunks):
 def populate_chroma(chunks: List[Document]):
     db = Chroma(
         persist_directory=config.CHROMA_PATH,
-        embedding_function=OllamaEmbeddings(model="llama3.1"),
+        embedding_function=GoogleGenerativeAIEmbeddings(model="models/embedding-001"),
     )
 
     chunks_with_ids = calculate_chunk_ids(chunks)
