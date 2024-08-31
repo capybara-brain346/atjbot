@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -7,11 +8,21 @@
 </head>
 <body>
     <h1>Chat with our Bot</h1>
-    <form id="chat-form">
-        <input type="text" id="user-input" placeholder="Ask me anything...">
-        <button type="submit">Send</button>
-    </form>
-    <div id="chat-output"></div>
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <h1>Chatbot</h1>
+            </div>
+            <div class="chatbox__messages"></div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Type a message...">
+                <button class="send__button">Send</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button>Open Chat</button>
+        </div>
+    </div>
     <script src="{{ url_for('static', filename='scripts/script.js') }}"></script>
 </body>
 </html>
