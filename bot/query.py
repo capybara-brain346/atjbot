@@ -1,13 +1,16 @@
-import os
 import config
 from langchain_chroma import Chroma
 from langchain.prompts import ChatPromptTemplate
+
 # from langchain_community.llms.ollama import Ollama
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
+
 # from langchain_community.embeddings import OllamaEmbeddings
 from dotenv import load_dotenv
+
 load_dotenv()
+
 
 def query_rag(query_text: str, prompt_template: str) -> str:
     db = Chroma(
@@ -22,7 +25,7 @@ def query_rag(query_text: str, prompt_template: str) -> str:
     prompt = prompt_template.format(context=context_text, question=query_text)
 
     model = ChatGoogleGenerativeAI(
-        model="gemini-1.5-flash", api_key=os.getenv("GOOGLE_API_KEY")
+        model="gemini-1.5-flash",
     )
     response_text = model.invoke(prompt)
 

@@ -11,7 +11,9 @@ from langchain_community.document_loaders import DirectoryLoader, TextLoader
 from langchain.schema.document import Document
 
 from dotenv import load_dotenv
+
 load_dotenv()
+
 
 def load_documents(data_path: str) -> List[Document]:
     text_loader_kwargs = {"autodetect_encoding": True}
@@ -57,9 +59,9 @@ def calculate_chunk_ids(chunks):
     return chunks
 
 
-def populate_chroma(chunks: List[Document]):
+def populate_chroma(chunks: List[Document], database_path: str):
     db = Chroma(
-        persist_directory=config.CHROMA_PATH,
+        persist_directory=database_path,
         embedding_function=GoogleGenerativeAIEmbeddings(model="models/embedding-001"),
     )
 
@@ -82,15 +84,18 @@ def populate_chroma(chunks: List[Document]):
         print("No new documents to add")
 
 
-def clear_database():
-    if os.path.exists(config.CHROMA_PATH):
-        shutil.rmtree(config.CHROMA_PATH)
+def clear_database(database_path: str):
+    if os.path.exists(database_path):
+        shutil.rmtree(database_path)
 
 
 def main():
-    documents = load_documents(data_path=config.DATA_DIRECTORY)
+    DATA_DIRECTORY = "./data"
+    CHROMA_PATH = "../chroma"
+
+    documents = load_documents(data_path=DATA_DIRECTORY)
     chunks = chunk_documents(documents)
-    populate_chroma(chunks)
+    populate_chroma(chunks, database_path=CHROMA_PATH)
 
 
 if __name__ == "__main__":
