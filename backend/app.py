@@ -78,7 +78,7 @@ def predict():
 
         ---
 
-        Answer the question based on the above context in 50 to 80 words. If the question is not related to legal content respond with I cannot help with this query. : {question}
+        Answer the question based on the above context in 50 to 80 words. If the question is not related to legal content respond with I cannot help with this query. You can be a little interactive by replying to simple prompts like greetings and goodbyes: {question}
         """
         response = query_rag(query_text=message, prompt_template=PROMPT_TEMPLATE)
         return jsonify({"answer": response, "links": get_links()})
