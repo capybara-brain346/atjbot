@@ -1,0 +1,68 @@
+.ad-banner-cntr{ display: inline-block; width: 100%;}
+.ad-banner-cntr ul{ padding: 0; margin: 0;}
+.ad-banner-cntr ul li{ margin-bottom: 15px; position: relative; width: 100%; height: 120px; overflow: hidden; list-style: none; clear: both;}
+.ad-banner-cntr ul li.sq-150, .ad-banner-cntr ul li.sq-200{ float: left; margin-left: 7.5px; margin-right: 7.5px; clear: inherit;}
+.ad-banner-cntr ul li.sq-150{ width: 150px; height: 150px;}
+.ad-banner-cntr ul li.sq-150 .ad-bnr-wrap{ font-size: 1em;}
+.ad-banner-cntr ul li.sq-200{ width: 200px; height: 200px;}
+.ad-banner-cntr ul li.sq-200 .ad-bnr-wrap{ font-size: 1.2em;}
+.ad-banner-cntr ul li.sq-150:first-child{ margin-left:0;}
+.ad-banner-cntr ul li.sq-150:last-child{ margin-right:0;}
+.ad-banner-cntr ul li.hor-300{ width: 315px; height: 110px;}
+.ad-banner-cntr ul li.hor-300-smlheight{ width: 315px; height: 70px;}
+.ad-banner-cntr ul li.br-radius-5{  border-radius: 5px;}
+.ad-banner-cntr ul li.br-radius-10{  border-radius: 15px;}
+.ad-banner-cntr ul li.br-radius-20{  border-radius: 20px;}
+.ad-banner-cntr ul li.br-radius-circle{  border-radius: 50%;}
+.ad-banner-cntr ul li .hyperlikdiv{ position: absolute; left: 0; right: 0; top: 0; bottom: 0;}
+.ad-banner-cntr ul li .hyperlikdiv:before{ content: ""; background: rgba(0, 0, 0, 0.5); position: absolute; left: 0; right: 0; top: 0; bottom: 0;}
+.ad-banner-cntr ul li .hyperlikdiv .ad-bnr-img{ width: 100%; height: 100%; object-fit: cover;}
+.ad-bnr-wrap { width: 100%; font-size: 1.5em; text-align: center; color:#fff; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.ad-bnr-wrap .ad-bnr-icon, .ad-bnr-wrap .ad-bnr-text{ display: inline-block; vertical-align: middle;}
+.ad-bnr-wrap .ad-bnr-icon{ font-size: 32px;}
+.ad-title, .ad-sub-title{ display: block; width: 100%; text-align: center;}
+.ad-bnr-wrap .ad-bnr-icon + .ad-bnr-text .ad-title, .ad-bnr-wrap .ad-bnr-icon + .ad-bnr-text .ad-sub-title{ text-align: left;}
+.ad-sub-title{ font-size: 0.7em; color: #dcdada;}
+li.sq-150 .ad-title, li.sq-200 .ad-sub-title, li.sq-150 .ad-sub-title, li.sq-200 .ad-title{ text-align: center;}
+.ad-banner-cntr ul li.sq-150 .ad-bnr-wrap{ width: 150px;}
+.ad-banner-cntr ul li.sq-200 .ad-bnr-wrap{ width: 200px;}
+.ad-banner-cntr ul li.sq-200 .ad-bnr-wrap .ad-bnr-icon{ font-size: 50px;}
+li.sq-150 .ad-bnr-wrap .ad-bnr-icon, li.sq-200 .ad-bnr-wrap .ad-bnr-icon{ margin-bottom: 10px;}
+.ad-banner-cntr ul li.red_bg .hyperlikdiv:before{ background: rgb(202, 66, 66)}
+.ad-banner-cntr ul li.green_bg .hyperlikdiv:before{ background: rgb(28, 201, 85)}
+.ad-banner-cntr ul li.blue_bg .hyperlikdiv:before{ background: rgb(52, 139, 238)}
+.ad-banner-cntr ul li.orange_bg .hyperlikdiv:before{ background: rgb(243, 148, 5)}
+.ad-banner-cntr ul li.gray_bg .hyperlikdiv:before{ background: rgb(71, 71, 71)}
+.ad-banner-cntr ul li.black_bg .hyperlikdiv:before{ background: rgb(0, 0, 0)}
+.ad-banner-cntr ul li.white_bg .hyperlikdiv:before{ background: rgb(255, 255, 255)}
+.ad-banner-cntr ul li.custom-bg .hyperlikdiv:before{ background: none;}
+.ad-banner-cntr ul li.color-white .ad-bnr-wrap,
+.ad-banner-cntr ul li.color-white .ad-bnr-wrap .ad-sub-title{ color:#fff;}
+.ad-banner-cntr ul li.color-black .ad-bnr-wrap,
+.ad-banner-cntr ul li.color-black .ad-bnr-wrap .ad-sub-title{ color:#000;}
+.ad-banner-cntr.col_two ul li, .ad-banner-cntr.col_three ul li, .ad-banner-cntr.col_four ul li, .ad-banner-cntr.col_five ul li { float: left; margin:0 7.5px 15px 7.5px; clear: inherit;}
+.ad-banner-cntr.col_two ul li{ width:calc(50% - 15px);}
+.ad-banner-cntr.col_three ul li{ width:calc(33.33% - 15px);}
+.ad-banner-cntr.col_four ul li{ width:calc(25% - 15px);}
+.ad-banner-cntr.col_five ul li{ width:calc(20% - 15px);}
+
+.ad-banner-cntr ul li.no-content .hyperlikdiv:before{ content: inherit; background-color: transparent;}
+
+.contrast .ad-banner-cntr ul li .hyperlikdiv{ border: 1px solid;}
+.contrast .ad-banner-cntr ul li .hyperlikdiv:before { background: #000000b5 !important;}
+.ad-banner-cntr ul li.no-content{ padding-bottom: 0;}
+.ad-banner-cntr ul li.no-content,
+.ad-banner-cntr ul li.no-content .hyperlikdiv .ad-bnr-img{ height:auto;}
+.ad-banner-cntr ul li.no-content .hyperlikdiv{ position: inherit;}
+.contrast .ad-banner-cntr ul li.no-content .hyperlikdiv:before{ background-color: transparent !important;}
+.contrast .ad-banner-cntr ul li.no-content .hyperlikdiv{ border: none;}
+.contrast .ad-banner-cntr ul li.custom-bg{ background: #000 !important;}
+@media (max-width: 1024px){
+    .ad-banner-cntr ul li.hor-300,
+    .ad-banner-cntr ul li.hor-300-smlheight{ width: 100%;}
+}
+@media (max-width: 640px){
+    .ad-banner-cntr ul li.hor-300-smlheight{ width: 100%;}
+    .ad-banner-cntr.col_two ul li, .ad-banner-cntr.col_three ul li, .ad-banner-cntr.col_four ul li, .ad-banner-cntr.col_five ul li { width:calc(100% - 0px); margin: 0 0 15px 0; clear: both;}
+    .vc_column_container>.vc_column-inner{ border:none !important;}
+}

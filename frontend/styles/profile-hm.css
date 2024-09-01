@@ -1,0 +1,201 @@
+.minister-title{ padding-bottom: 10px;}
+.col-3.singlebox{ display: inline-block; width: 100%; text-align: center;}
+/*--------Minister Profile -------*/
+.khowMinister{width: 18%; float: right;}
+.khowMinister{background: #fff;}
+.khowMinisterBox{ border-bottom:1px solid #d8d8d8;	padding: 12px 30px;	text-align: center;}
+.khowMinisterBox:last-child { border: 0px;}
+.khowMinisterBox .khowMinisterBoxImg { width: 100%; margin:0 auto;}
+.khowMinisterBox .khowMinisterBoxImg img{ width: 140px; }
+.MinisterProfile{ padding-top: 5px;}
+.MinisterProfile .Pname{ font-weight: 600; display: block; font-size: 1.15em;}
+.MinisterProfile .Pdesg{ font-weight: 400 !important; display: block; font-size: 1.1em;}
+.MinisterProfile .Pdesc{ margin-top: 10px; line-height: 1.5em;}
+.MinisterProfile ul{ padding-top: 4px;}
+.MinisterProfile ul	li{	display: inline-block;}
+.MinisterProfile ul	li a span{ display: inline-block; padding-right: 1px; font-size: 1.2em;	vertical-align: middle;	}
+a:hover{ color:#5B93F7;}
+.SkipContent { float: left; width: 100%;}
+.box-1{ display: inline-block; width:100%; margin:0 0; vertical-align: top;}
+.box-2{ display: inline-block; width:calc(50% - 30px); margin:0 15px;}
+.singlebox .col-12{ margin:0; width:100%;}
+.singlebox .box-1.whitebg { background: #fff;}
+.singlebox.col-one .box-1 { float: left; width: 100%;}
+.singlebox.col-one .box-1 .khowMinisterBox{ padding: 15px;}
+.singlebox.col-one .box-1.aside-box{ min-height: inherit;}
+/*/.singlebox.col-two .box-1, .singlebox.col-three .box-1,
+.singlebox.col-four .box-1, .singlebox.col-five .box-1{
+float: none; display: inline-block; vertical-align: top; margin-right: 15px;}*/
+.singlebox .box-1:last-child{ margin-right: 0px !important;}
+
+.singlebox.col-one .box-1{ width: calc(100% - 0px); margin-right:0px; margin-bottom: 15px;}
+.singlebox.col-one.gap-0 .box-1{ margin-bottom: 0px;}
+.singlebox.col-one.gap-3 .box-1{ margin-bottom: 3px;}
+.singlebox.col-one.gap-5 .box-1{ margin-bottom: 5px;}
+.singlebox.col-one.gap-7 .box-1{ margin-bottom: 7px;}
+.singlebox.col-one.gap-10 .box-1{ margin-bottom: 10px;}
+.singlebox.col-one.gap-20 .box-1{ margin-bottom: 20px;}
+
+.singlebox.col-two .box-1{ width: calc((100% / 2) - 15px); margin-right:15px; margin-bottom: 15px;}
+.singlebox.col-two.gap-0 .box-1{ width: calc((100% / 2) - 0px); margin-right: 0px; margin-bottom: 0px; margin-left: -3px;}
+.singlebox.col-two.gap-3 .box-1{ width: calc((100% / 2) - 4px); margin-right: 3px; margin-bottom: 3px;}
+.singlebox.col-two.gap-5 .box-1{ width: calc((100% / 2) - 5px); margin-right: 5px; margin-bottom: 5px;}
+.singlebox.col-two.gap-7 .box-1{ width: calc((100% / 2) - 7px); margin-right: 7px; margin-bottom: 7px;}
+.singlebox.col-two.gap-10 .box-1{ width: calc((100% / 2) - 10px); margin-right: 10px; margin-bottom: 10px;}
+.singlebox.col-two.gap-20 .box-1{ width: calc((100% / 2) - 20px); margin-right: 20px; margin-bottom: 20px;}
+
+.singlebox.col-three .box-1{ width: calc((100% / 3) - 15px); margin-right:15px; margin-bottom: 15px;}
+.singlebox.col-three.gap-0 .box-1{ width: calc((100% / 3) - 0px); margin-right: 0px; margin-bottom: 0px; margin-left: -3px;}
+.singlebox.col-three.gap-3 .box-1{ width: calc((100% / 3) - 3px); margin-right: 3px; margin-bottom: 3px;}
+.singlebox.col-three.gap-5 .box-1{ width: calc((100% / 3) - 5px); margin-right: 5px; margin-bottom: 5px;}
+.singlebox.col-three.gap-7 .box-1{ width: calc((100% / 3) - 7px); margin-right: 7px; margin-bottom: 7px;}
+.singlebox.col-three.gap-10 .box-1{ width: calc((100% / 3) - 10px); margin-right: 10px; margin-bottom: 10px;}
+.singlebox.col-three.gap-20 .box-1{ width: calc((100% / 3) - 20px); margin-right: 20px; margin-bottom: 20px;}
+
+.singlebox.col-four .box-1{ width: calc((100% / 4) - 15px); margin-right:15px; margin-bottom: 15px;}
+.singlebox.col-four.gap-0 .box-1{ width: calc((100% / 4) - 0px); margin-right: 0px; margin-bottom: 0px; margin-left: -3px;}
+.singlebox.col-four.gap-3 .box-1{ width: calc((100% / 4) - 3px); margin-right: 3px; margin-bottom: 3px;}
+.singlebox.col-four.gap-5 .box-1{ width: calc((100% / 4) - 5px); margin-right: 5px; margin-bottom: 5px;}
+.singlebox.col-four.gap-7 .box-1{ width: calc((100% / 4) - 7px); margin-right: 7px; margin-bottom: 7px;}
+.singlebox.col-four.gap-10 .box-1{ width: calc((100% / 4) - 10px); margin-right: 10px; margin-bottom: 10px;}
+.singlebox.col-four.gap-20 .box-1{ width: calc((100% / 4) - 20px); margin-right: 20px; margin-bottom: 20px;}
+
+.singlebox.col-five .box-1{ width: calc((100% / 5) - 15px); margin-right:15px; margin-bottom: 15px;}
+.singlebox.col-five.gap-0 .box-1{ width: calc((100% / 5) - 0px); margin-right: 0px; margin-bottom: 0px; margin-left: -3px;}
+.singlebox.col-five.gap-3 .box-1{ width: calc((100% / 5) - 3px); margin-right: 3px; margin-bottom: 3px;}
+.singlebox.col-five.gap-5 .box-1{ width: calc((100% / 5) - 5px); margin-right: 5px; margin-bottom: 5px;}
+.singlebox.col-five.gap-7 .box-1{ width: calc((100% / 5) - 7px); margin-right: 7px; margin-bottom: 7px;}
+.singlebox.col-five.gap-10 .box-1{ width: calc((100% / 5) - 10px); margin-right: 10px; margin-bottom: 10px;}
+.singlebox.col-five.gap-20 .box-1{ width: calc((100% / 5) - 20px); margin-right: 20px; margin-bottom: 20px;}
+
+.round-icon{ border-radius:100%; width: 140px; height: 140px; border:1px solid rgba(0, 0, 0, 0.37); object-fit: cover;}
+.withbg .khowMinisterBox .khowMinisterBoxImg img{ border:1px solid #d8d8d8;}
+.khowMinisterBox .MinisterProfile a{ color: #000;}
+.khowMinisterBox .MinisterProfile a:hover{ color: #555;}
+.khowMinisterBox .MinisterProfile ul { padding: 0; margin: 0; padding-top: 10px;}
+.khowMinisterBox .MinisterProfile ul li{ padding-bottom: 0;}
+.khowMinisterBox .MinisterProfile ul li a{ border-left:1px solid #9E9B9B; padding:0px 5px; font-size:0.9em;}
+.khowMinisterBox .MinisterProfile ul li:first-child a{ border-left:none;}
+.khowMinisterBox .MinisterProfile ul li a.withbg{ background:#666666; padding:3px 5px; color:#fff;}
+.khowMinisterBox .MinisterProfile ul li a.withbg:hover{ background:#f36523;}
+.khowMinisterBox .MinisterProfile ul li a.withbg.round{ border-radius:3px;}
+.khowMinisterBox .MinisterProfile ul li a.outline{ background-color:transparent; padding:3px 5px; border:1px solid;}
+.khowMinisterBox .MinisterProfile ul li a span{ font-size:1.1em;}
+.khowMinisterBox .MinisterProfile ul li a.btn{ padding: 5px 10px;}
+.social-icocntr{ display:inline-block; width:100%; margin-top:7px;}
+.social-icocntr a{ padding:0 3px;}
+.box-1.aside-box { position: relative; padding-left: 105px; overflow: hidden; min-height: 160px;}
+.box-1.aside-box .khowMinisterBox{ text-align:left;}
+.box-1.aside-box .khowMinisterBox .khowMinisterBoxImg { width: 90px; position: absolute; left: 10px;}
+.box-withbg .box-1:nth-child(odd), .withbg{ background:#f3f3f3;display: inline-block;}
+.box-1.aside-box .khowMinisterBox .khowMinisterBoxImg img{ width: 90px; height: 90px;}
+
+
+@media (max-width: 1400px) {
+.aboutDictict h4{ margin-top: 15px;	margin-bottom: 10px;}
+.khowMinisterBox{ padding: 30px 6px;}
+}
+
+@media (max-width: 1199px) {
+.gen-list.padding-20 {	padding: 15px 0 !important;}
+.singlebox.col-five .box-1 {width: calc(25% - 15px);}
+.singlebox.col-four .box-1.aside-box,
+.singlebox.col-five .box-1.aside-box{ padding: 15px;}
+.singlebox.col-four .box-1.aside-box .khowMinisterBox,
+.singlebox.col-five .box-1.aside-box .khowMinisterBox{ padding: 0; text-align: center;}
+.singlebox.col-four .box-1.aside-box .khowMinisterBox .khowMinisterBoxImg,
+.singlebox.col-five .box-1.aside-box .khowMinisterBox .khowMinisterBoxImg{ position: static; width: 100%; margin: 0 0 15px;}
+.singlebox.col-four .box-1.aside-box .khowMinisterBox .MinisterProfile,
+.singlebox.col-five .box-1.aside-box .khowMinisterBox .MinisterProfile{ padding: 0;}
+}
+
+@media (max-width: 1100px) {
+.khowMinister { float: none; width: 100%; text-align: center; margin-bottom: 30px;}
+.khowMinister .khowMinisterBox { display: inline-block; padding: 30px 10%; border-bottom: 0px; border-right: 1px solid #d8d8d8;}
+.khowMinister .khowMinisterBox:last-child{border: 0px;}
+}
+
+@media (max-width: 991px) {
+.singlebox.col-two .box-1 {	width: 100%;	margin: 0 0 15px; float:none;}
+.khowMinisterBox {	padding: 20px 0;}
+.khowMinisterBox .khowMinisterBoxImg{ width:58%;}
+.singlebox.col-two .box-1, .singlebox.col-three .box-1, .singlebox.col-four .box-1,
+.singlebox.col-five .box-1 {width: calc(50% - 15px); margin: 0 13px 15px 0;}
+.box-1.aside-box{ min-height: 120px;}
+.singlebox.col-five .box-1.aside-box,
+.singlebox.col-three .box-1.aside-box,
+.singlebox.col-four .box-1.aside-box{ margin: 0 13px 15px 0;}
+.singlebox.col-five .box-1.aside-box:nth-child(2n),
+.singlebox.col-four .box-1.aside-box:nth-child(2n),
+.singlebox.col-three .box-1.aside-box:nth-child(2n),
+.singlebox.col-two .box-1:nth-child(2n),
+.singlebox.col-three .box-1:nth-child(2n),
+.singlebox.col-four .box-1:nth-child(2n),
+.singlebox.col-five .box-1:nth-child(2n){ margin-right: 0;}
+.singlebox.col-three .box-1.aside-box:nth-child(3n){ margin-right: 15px;}
+
+.minister-two-col.singlebox .box-1{ width: 100% !important; margin-bottom: 15px;}
+}
+
+@media (max-width: 767px) {
+    .page-template-default h2.minister-title{ margin:20px 0 10px;}
+    .khowMinisterBox .khowMinisterBoxImg img {	width: 90px;	height: 90px;}
+}
+
+@media (max-width: 640px) {
+.khowMinister .khowMinisterBox { padding: 30px 4%;}
+.singlebox.col-two .box-1,
+.singlebox.col-three .box-1,
+.singlebox.col-four .box-1,
+.singlebox.col-five .box-1 {width: 100%; margin: 0 0 15px; float: none; min-height: inherit;}
+.singlebox.col-one .box-1.aside-box,
+.singlebox.col-two .box-1.aside-box,
+.singlebox.col-three .box-1.aside-box,
+.singlebox.col-four .box-1.aside-box,
+.singlebox.col-five .box-1.aside-box{ margin: 0 0 15px;}
+.box-1.aside-box{ padding-left: 110px;}
+.box-1.aside-box .khowMinisterBox{ padding: 20px 0;}
+.singlebox.col-one .box-1,
+.singlebox.col-two .box-1,
+.singlebox.col-three .box-1,
+.singlebox.col-four .box-1,
+.singlebox.col-five .box-1{margin: 0;}
+
+.singlebox.col-two .box-1, .singlebox.col-two.gap-0 .box-1,
+.singlebox.col-two.gap-3 .box-1, .singlebox.col-two.gap-5 .box-1,
+.singlebox.col-two.gap-7 .box-1, .singlebox.col-two.gap-10 .box-1,
+.singlebox.col-two.gap-20 .box-1, .singlebox.col-three .box-1,
+.singlebox.col-three.gap-0 .box-1, .singlebox.col-three.gap-3 .box-1,
+.singlebox.col-three.gap-5 .box-1, .singlebox.col-three.gap-7 .box-1,
+.singlebox.col-three.gap-10 .box-1, .singlebox.col-three.gap-20 .box-1,
+.singlebox.col-four .box-1, .singlebox.col-four.gap-0 .box-1,
+.singlebox.col-four.gap-3 .box-1, .singlebox.col-four.gap-5 .box-1,
+.singlebox.col-four.gap-7 .box-1, .singlebox.col-four.gap-10 .box-1,
+.singlebox.col-four.gap-20 .box-1, .singlebox.col-five .box-1,
+.singlebox.col-five.gap-0 .box-1, .singlebox.col-five.gap-3 .box-1,
+.singlebox.col-five.gap-5 .box-1, .singlebox.col-five.gap-7 .box-1,
+.singlebox.col-five.gap-10 .box-1, .singlebox.col-five.gap-20 .box-1
+{ width: calc((100% / 1) - 0px); margin-right: 0px; margin-bottom: 15px;}
+}
+
+@media (max-width: 500px) {
+.khowMinister .khowMinisterBox { display: block; border-right: 0px; border-bottom: 1px solid #d8d8d8;}
+.khowMinister { margin-bottom: 15px;}
+.aboutDictict h4{ margin-bottom: 0;  margin-top: 15px; padding-bottom: 0;}
+}
+
+@media (max-width: 768px) {
+.box-2{ width:100%; margin:0 0;}
+}
+
+@media (max-width: 640px) {
+.box-1.aside-box { position: relative;}
+}
+
+@media (max-width: 500px) {
+.box-1.aside-box { position: relative; padding-left: 0;}
+.box-1.aside-box .khowMinisterBox{ text-align:center;}
+.box-1.aside-box .khowMinisterBox .khowMinisterBoxImg { width: 65%; position: inherit; left: inherit; margin-bottom: 10px;}
+}
+
+.contrast .singlebox .box-1.whitebg{ background: #000;}

@@ -1,0 +1,167 @@
+body {
+  width: 100% !important;
+  color: #000 !important;
+  margin: 0 !important;
+}
+body a {
+  color: #000 !important;
+}
+body p {
+  color: #000 !important;
+  width: 100% !important;
+}
+.flex-control-nav,
+.flex-direction-nav,
+.flex-pauseplay {
+  display: none !important;
+}
+/*.vc_row.vc_row-flex, .vc_row.vc_row-flex > .vc_column_container,
+.vc_row.vc_row-flex > .vc_column_container > .vc_column-inner{ display: block !important; width: 100% !important;}*/
+.khowMinisterBox,
+.khowMinisterBox:last-child {
+  border: 1px solid #d8d8d8 !important;
+  margin: 0 0 5px !important;
+}
+.border,
+.newsBox {
+  box-shadow: none !important;
+}
+.news-ticker-horizontal.title-left h2.pd-15 {
+  padding: 0 !important;
+}
+.header-right.hidden-xs,
+.header-wrapper .header-right a:last-child,
+.menuWrapper {
+  display: block !important;
+}
+.header-wrapper .header-right a,
+.menuToggle,
+.indicator,
+#overflowMenu {
+  display: none !important;
+}
+.menuWrapper .container ul li {
+  float: left !important;
+  width: auto !important;
+}
+.menuWrapper {
+  margin: 10px 0 20px !important;
+}
+.nav li {
+  margin: 0 10px 15px 0 !important;
+  line-height: inherit;
+  display: none !important;
+}
+.nav li:nth-child(1),
+.nav li:nth-child(2),
+.nav li:nth-child(3),
+.nav li:nth-child(4),
+.nav li:nth-child(5),
+.nav li:nth-child(6),
+.nav li:nth-child(7),
+.nav li:nth-child(8),
+.nav li.moreNav {
+  display: block !important;
+}
+.nav li > a {
+  padding: 0 !important;
+  color: #000 !important;
+  line-height: inherit !important;
+}
+.nav .moreNav span.hide {
+  display: inline-block !important;
+  font-size: 12px;
+  margin-right: 10px !important;
+}
+.nav .moreNav span.icon-menu {
+  display: inline-block !important;
+  vertical-align: middle !important;
+}
+#mainFooter .copyRights .copyRightsLogos a {
+  display: inline-block !important;
+}
+.btn,
+.btn.accent-color,
+a.accent-color,
+.style-1 .accent-border-color,
+.accent-border-color,
+.khowMinisterBox .MinisterProfile a,
+.carasoleflex-wrap.gallery-layout-two .btn {
+  border: 1px solid #000 !important;
+  color: #000 !important;
+  box-shadow: none !important;
+}
+.gen-card.genCard-horizontal-content .gen-card-img img {
+  width: 50% !important;
+}
+.page-template-default h2,
+.page-template-default h3.list-heading,
+.page-template-default h2.list-heading {
+  margin: 0 !important;
+}
+.home .gen-card.genCard-horizontal-content {
+  margin-top: -10px !important;
+}
+.carasoleflex-wrap.gallery-layout-two .photo-glry-title,
+.carasoleflex-wrap.gallery-layout-two .photo-glry-viewall {
+  text-align: left !important;
+}
+.vc_col-sm-3,
+.vc_col-sm-2 {
+  margin: 0 0 15px !important;
+}
+.gen-list.iconTop-textBottom-list li a span.list-icon {
+  display: block !important;
+  margin: 0 auto !important;
+}
+/*.vc_row.wpb_row.vc_row-fluid.vc_row-has-fill.vc_general.vc_parallax.vc_parallax-content-moving {
+	position: static !important;
+	transform: none !important;
+} */
+.location-cntr ul li a img {
+  display: block !important;
+}
+.vc_row[data-vc-full-width] {
+  width: 100% !important;
+  overflow: visible !important;
+  left: 0 !important;
+}
+.slide-caption {
+  display: block !important;
+}
+.gen-list.iconTop-textBottom-list li,
+.location-cntr ul li {
+  width: 49% !important;
+  float: left;
+  border: 1px solid #ccc;
+}
+.location-details .location-name .location-title,
+.gen-list.fore-color-white li a div.list-text,
+.gen-list.fore-color-white li .list-anchor div.list-text,
+.news-ticker-horizontal.color-white h2,
+.news-ticker-horizontal.color-white .flexslider .slides li .with-urlchange {
+  text-shadow: none !important;
+  color: #000 !important;
+}
+.wpb_wrapper,
+.vc_row.vc_row-flex > .vc_column_container > .vc_column-inner,
+.grid .element-item.show {
+  display: inline-block !important;
+}
+.grid .element-item {
+  width: 100% !important;
+  margin: 0 0 15px 0;
+}
+
+.news-ticker-horizontal.color-white h2,
+.news-ticker-horizontal.color-white .flexslider .slides li .with-urlchange,
+.style-2 .accent-fixed-color,
+.style-1 .accent-fixed-color,
+#mainFooter .footer-top ul li a,
+#mainFooter .copyRights .copyRightsText p,
+#mainFooter .footer-bottom a,
+.gen-card-content p,
+.gen-card-content a,
+.achievements h4 {
+  color: #fff !important;
+}

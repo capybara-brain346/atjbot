@@ -1,0 +1,49 @@
+.gen-list {
+  padding: 20px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 7px; }
+  .gen-list ul {
+    padding-left: 0; display: inline-block; width: 100%;}
+    .gen-list ul li {
+      list-style: none;
+      background-color: #0a95dd;
+      padding: 0px;
+      margin-bottom: 10px;
+      border-radius: 7px;
+      border: 1px solid transparent; }
+      .gen-list ul li a,
+      .gen-list ul li .list-anchor {
+        color: #fff;
+        display: block;
+        font-size: 1.12em;
+        padding: 10px;
+        font-weight: normal; }
+        .gen-list ul li a:hover,
+        .gen-list ul li .list-anchor:hover {
+          color: #000; }
+        .gen-list ul li a span.list-icon,
+        .gen-list ul li .list-anchor span.list-icon {
+          display: table-cell;
+          width: 50px;
+          height: 50px;
+          vertical-align: middle;
+          text-align: center;
+          background-color: #0972a8;
+          border-radius: 50%;}
+          .gen-list ul li a span.list-icon:before,
+          .gen-list ul li .list-anchor span.list-icon:before {
+            font-family: 'icomoon' !important;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            font-size: 20px;}
+            .gen-list ul li a span.list-icon.fa:before,
+          .gen-list ul li .list-anchor span.list-icon.fa:before {
+            font-family: inherit !important;
+          }
+            .gen-list ul li.other-icon a span.list-icon:before { font-family: inherit !important;}
+        .gen-list ul li a div.list-text,
+        .gen-list ul li .list-anchor div.list-text {
+          display: table-cell;
+          vertical-align: middle;
+          padding-left: 10px; }

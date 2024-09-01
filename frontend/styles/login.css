@@ -1,0 +1,204 @@
+h1,
+.heading1 {
+    font-size: 2em;
+}
+
+.loaderImage {
+    width: 80px;
+    margin: 0 auto;
+}
+
+.parichay-outerbox {
+    border-left: 2px solid #ddd;
+    margin: 15px 0 30px 0;
+}
+
+.parichay-outerbox:first-child {
+    border-left: none;
+}
+
+.parichay-login-cntr {
+    display: grid;
+    align-items: center;
+    width: 870px;
+    margin: 60px auto;
+    text-align: center;
+    border: 1px dashed #5d338a;
+    border-radius: 8px;
+    position: relative;
+    padding: 15px;
+    min-height: 250px;
+}
+
+.parichay-login-cntr h1.login-title {
+    color: #5d338a;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.parichay-login-cntr .logininr-cntr {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 9;
+}
+
+/* .parichay-login-cntr .logininr-cntr .parichay-outerbox {
+    padding-left: 24px;
+}
+
+.parichay-login-cntr .logininr-cntr .parichay-outerbox:first-child {
+    padding-left: 0;
+} */
+
+.parichay-login-cntr .wp-social-login-connect-with {
+    font-size: 2em;
+}
+
+.parichay-login-cntr .wp-social-login-provider-list {
+    padding: 0;
+    margin: 0;
+}
+
+.parichay-login-cntr .wp-social-login-provider-list a.wp-social-login-provider,
+.parichay-login-cntr .logout-auth {
+    display: inline-flex;
+    align-items: center;
+    width: 330px;
+    min-height: 150px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease-in-out;
+    background-image: url(../img/corner.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.parichay-login-cntr .wp-social-login-provider-list a.wp-social-login-provider img {
+    margin: 0 auto;
+    width: 200px;
+    border: 0;
+}
+
+.parichay-login-cntr .wp-social-login-provider-list p {
+    display: inline-block;
+    width: 330px;
+    color: #5d338a;
+    text-align: left;
+    line-height: 1.5em;
+    margin-top: 7px;
+    font-size: 0.9em;
+}
+
+.parichay-login-cntr .wp-social-login-provider-list p a {
+    color: #dbb006;
+    font-weight: 600;
+}
+
+.parichay-login-error {
+    color: #ff0606;
+    font-weight: 600;
+}
+
+/*Logout page*/
+.parichay-login-cntr .logout-auth {
+    width: 470px;
+    margin-bottom: 25px;
+    padding: 20px 15px;
+}
+
+.parichay-login-cntr .logout-auth .logout-inr-cntr {
+    width: 100%;
+    text-align: center;
+}
+
+.parichay-login-cntr .logout-auth .logout-inr-cntr .logoutmsg {
+    font-size: 1.5em;
+}
+
+.parichay-login-cntr .logout-auth .login-link {
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 0 5px;
+    background-color: #f65a64;
+    color: #fff;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+}
+
+.parichay-login-cntr .logout-auth .login-link:hover {
+    text-decoration: underline;
+}
+
+.parichay-login-cntr .logout-auth .login-link.yes {
+    background-color: #333;
+}
+
+/*high contrast*/
+.contrast .parichay-login-cntr {
+    border-color: #ff0;
+}
+
+.contrast .wp-social-login-provider-list img,
+.contrast .parichay-login-cntr .wp-social-login-provider-list a.wp-social-login-provider {
+    filter: grayscale(1);
+}
+
+.contrast .parichay-login-cntr .wp-social-login-provider-list p {
+    color: #fff;
+}
+
+.contrast .parichay-login-cntr .logout-auth .login-link {
+    background-color: #ff0 !important;
+    color: #000 !important;
+}
+
+
+@media (max-width: 991px) {
+    .parichay-login-cntr {
+        width: 95%;
+        margin: 30px auto;
+        min-height: 250px;
+        padding: 20px;
+    }
+
+    .parichay-login-cntr .logininr-cntr {
+        display: block;
+    }
+
+    .parichay-login-cntr .logininr-cntr .parichay-outerbox {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .parichay-outerbox {
+        margin: 0;
+        border-left: none;
+    }
+
+    .parichay-login-cntr .wp-social-login-provider-list {
+        padding: 0;
+        margin: 0 0 20px 0;
+    }
+}
+
+@media (max-width: 550px) {
+    .parichay-login-cntr {
+        padding: 10px;
+    }
+
+    .parichay-login-cntr .wp-social-login-provider-list a.wp-social-login-provider,
+    .parichay-login-cntr .wp-social-login-provider-list p,
+    .parichay-login-cntr .logout-auth {
+        width: 100%;
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-6 {
+        width: 50%;
+    }
+}
