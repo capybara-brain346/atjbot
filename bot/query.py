@@ -1,6 +1,6 @@
-import config
 from langchain_chroma import Chroma
 from langchain.prompts import ChatPromptTemplate
+from langchain_core.runnables import RunnablePassthrough
 
 # from langchain_community.llms.ollama import Ollama
 from langchain_google_genai import ChatGoogleGenerativeAI
@@ -14,7 +14,7 @@ load_dotenv()
 
 def query_rag(query_text: str, prompt_template: str) -> str:
     db = Chroma(
-        persist_directory=config.CHROMA_PATH,
+        persist_directory="../chroma",
         embedding_function=GoogleGenerativeAIEmbeddings(model="models/embedding-001"),
     )
 
@@ -29,6 +29,7 @@ def query_rag(query_text: str, prompt_template: str) -> str:
     )
     response_text = model.invoke(prompt)
 
+    chain = {"context": context_text, "question": query_text}
     formatted_response = f"Response: {response_text}"
     print(formatted_response)
     return response_text
@@ -36,15 +37,17 @@ def query_rag(query_text: str, prompt_template: str) -> str:
 
 def main() -> None:
     PROMPT_TEMPLATE = """
-    Answer the question based only on the following context:
+    Below is context:
 
     {context}
 
     ---
 
-    Answer the question based on the above context in 50 to 80 words. If the question is not related to legal content respond with I cannot help with this query. : {question}
+    Answer the question based on the above context in 50 to 80 words. 
+    If the question is a greeting or goodbye or a thank you, be friendly and you can respond with a friendly greeting while ignoring the context.
+    If the question is not related to legal content respond with I cannot help with this query. : {question}
     """
-    query_text = "Tell me some frontline functionalities of Tele-Law step by step?"
+    query_text = "Thank you!"
     print(f"Your question: {query_text}")
 
     print(query_rag(query_text=query_text, prompt_template=PROMPT_TEMPLATE))

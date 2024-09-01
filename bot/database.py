@@ -1,5 +1,4 @@
 import os
-import config
 import shutil
 from typing import List
 from langchain_text_splitters import RecursiveCharacterTextSplitter
