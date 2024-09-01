@@ -1,0 +1,85 @@
+Table 1:
+SI. No.	Service/ Transaction	Weightage (%)	Responsible Person (Designation)	e-mail	Mobile/ Phone Numbers	Process	Document Required	Category	Mode	Amount
+1	Issue of Notification for appointment of Judges in the Supreme Court and the High Courts.	15	Joint Secretary (JNS)	jsapp[dash]doj[at]gov[dot]in	011- 23383037	After approval of the President, Notification is issued by Department of Justice.	Complete proposal.	N/A	N/A	N/A
+2	Issue ofNotification for transfer of Judges.	6	Joint Secretary (JNS)	jsapp[dash]doj[at]gov[dot]in	011-23383037	After approval of the President, Notification is issued by Department of Justice.	Completeproposal.	N/A	N/A	N/A
+3	Release of grant-in-aid to NALSA for implementation of Legal Aid Programme in the States/UTs.	4	Joint Secretary (NKG)	jsa2j[-]doj[at]gov[dot]in	011-23385020	The proposals received from NALSA, in complete form is processed in the Department and approval of Competent Authority obtained	Complete Proposal along with Audited statement of Account and Utilisation Certificates for previous year’s grants-in-aid.	N/A	N/A	N/A
+4	Representation/ grievances from public seeking legal aid.	4	Joint Secretary (NKG)	jsa2j[-]doj[at]gov[dot]in	011-23385020	The representations received from the public are examined in the Department and forwarded to NALSA for appropriate action.	No documents are required	N/A	N/A	N/A
+5	Designing InnovativeSolutions for Holistic Access to Justice (DISHA) -Various activities relating to DISHA include Tele-Law, Nyaya Bandhu (Pro Bono Legal Services) and Pan-India Legal Literacy and Legal Awareness.	3	Joint Secretary (NKG)	jsa2j[-]doj[at]gov[dot]in	011-23385020	DISHA scheme has been introduced in the year 2021-2022 with the approval from Deptt. of Expenditure for the period 2021-2026. The proposal received from various agencies are processed in the Department and approval of Competent Authority is obtained.	Complete Proposal, financial details, consent from all stakeholder etc.	N/A	N/A	N/A
+6	Release of fund in instalments for DISHA Programmes.	2	Joint Secretary (NKG)	jsa2j[-]doj[at]gov[dot]in	011-23385020	The request received from the partner agencies are examined in the department and approval of competent authority is obtained subject to availability of funds.	Progress Report, Utilisation Certificate along with details of activities completed.	N/A	N/A	N/A
+7	Release of grant to the States/UTs under the Centrally Sponsored Scheme for Infrastructure Development of Judiciary.	10	Joint Secretary (GM)	masaldan[dot]gaurav[at]nic[dot]in	011-23072142	The proposals received from the State/UT Governments are processed in the Department and approval of the Competent Authority obtained, subject to availability of funds under the Scheme and allocation to a particular State/UT	Complete proposal along with Utilisation Certificates / Expenditure shown on PFMS for previous releases along with expenditure of state matching share.	N/A	N/A	N/A
+8	Release of grants to the States/UTs for Gram Nyayalayas.	5	Joint Secretary (GM)	masaldan[dot]gaurav[at]nic[dot]in	011-23072142	The proposals received from the State/UT Governments are processed in the Department and the approval of Competent Authority obtained, subject to availability of funds.	Complete proposal along with Utilisation Certificates for previous releases.	N/A	N/A	N/A
+9	Release of Funds to NIC & High Courts on recommendation of e-Committee of the Supreme Court of India under e-Courts Mission Mode project (Phase-III).	8	Joint Secretary (PPP)	pravash[dot]panday2[at]gov[dot]in	011-23381496	The proposal received from e-Committee of the Supreme Court of India are examined and sent to Competent Authority for approval and release of funds	Complete proposal along with approval of e-Committee of the Supreme Court of India.	N/A	N/A	N/A
+10	Release of grant to National Judicial Academy.	4	Joint Secretary (PPP)	pravash[dot]panday2[at]gov[dot]in	011-23381496	The proposals received from National Judicial Academy are examined and approval of the Competent Authority obtained.	Complete proposal along with Utilisation Certificate for previous releases.	N/A	N/A	N/A
+11 (a)	Release of central share of funds for the Scheme of Fast Track Special Courts(FTSCs) including exclusive POCSO courts for trial and disposal of cases related to rape and POCSO Act.	8	Joint Secretary (PPP)	pravash[dot]panday2[at]gov[dot]in	011-23381496	The consent/ proposals received from the State/ UT Governments is examined and approval of the Competent Authority obtained.	Receipt of consent and compliance of revised procedure for release of CSS funding including receipt of Expenditure Statement. The Scheme is running on reimbursement mode where funds are released after the Expenditure has already been incurred by the States/UTs.	N/A	N/A	N/A
+(b)	Release of funds for the 10 functional Special Courts set up for trial of Criminal Cases involving elected MPs/MLAs as per directions of the Supreme Court of India in WP (C) 699 of 2016 dated 01.11.2017.	2	Joint Secretary (PPP)	pravash[dot]panday2[at]gov[dot]in	011-23381496	The proposals received from the concerned State Governments are examined and approval of the Competent Authority obtained.	Receipt of proposal and UC of released funds from the concerned state Govt.	N/A	N/A	N/A
+12 (a)	Grievances related to Supreme Court/High Court Judges.	4	Joint Secretary (JNS)	jsapp[dash]doj[at]gov[dot]in	011-23383037	The complaints received are forwarded to the Supreme Court or the respective High Court.		N/A	N/A	N/A
+(b)	Grievances related to District and Subordinate Courts	6	Joint Secretary (NKG)	jsa2j[-]doj[at]gov[dot]in	011- 23385020	Returned to the Grievance holder to file complaint in a sworn-in-affidavit with verifiable facts to the concerned Registrar General of High Court.		N/A	N/A	N/A
+(c)	Grievances relating to other Ministries/ Departments or State/UT Governments or other agencies.	2	Joint Secretary (NKG)	jsa2j[-]doj[at]gov[dot]in	011- 23385020	Complaints against other officials are sent to the public authorities in the Central or State/UT Governments as the case may be, for appropriate action under intimation to the complainant.		N/A	N/A	N/A
+(d)	Grievances Which can be addressed by Administration Unit of the Department of Justice.	2	Joint Secretary (GM)	masaldan[dot]gaurav[at]gov.in	011- 23072142	Complaints relating to subject matters dealt with by Administration Unit of Department of Justice are examined and decided.		N/A	N/A	N/A
+13	Issue of orders sanctioning Pension and other retirement benefits to Judges of the Supreme Courts/High Courts.	10	Joint Secretary (NKG)	jsa2j[dash]doj[at]gov[dot]in	011 23385020	The proposals received from the Pay & Accounts office, Supreme Court and office of the Accountant General of the State concerned are examined and approval of the Competent Authority obtained	Complete proposal with details.	N/A	N/A	N/A
+14	Issue of orders sanctioning leave to the Judges of the Supreme Court/High Courts.	5	Joint Secretary (NKG)	jsa2j[dash]doj[at]gov[dot]in	011 23385020	The proposals received from the Supreme Court and the respective High Courts are examined and approval of the Competent Authority obtained.	Complete proposal with details.	N/A	N/A	N/A
+
+==================================================
+
+Table 2:
+SI. No.	Service/ Transaction	Success indicators	Service Standards	Unit	Weightage (%)	Data Source
+1	Issue of Notification for appointment of Judges in the Supreme Court and the High Courts.	Time taken from receipt of proposal to issue of Notification.	180	Days	15	Records of Department of Justice.
+2	Issue of Notification for Transfer of Judges.	Time taken from receipt of Proposal to issue of Notification.	90	Days	6	Records of Department of Justice.
+3	Release of grant-in- aid to NALSA for implementation of Legal Aid Programmes in the States.	Time taken from receipt of Proposal from NALSA to issue of sanction order.	30	Days	4	Records of Department of Justice.
+4	Representation/grievances from public seeking legal aid.	Time taken from receipt of representations/grievances from public to forwarding to NALSA.	5	Days	4	Records of Department of Justice.
+5	Designing Innovative Solutions for Holistic Access to Justice (DISHA). Various activities relating to Tele-Law, Nyaya Bandhu (Pro Bono Legal Service) and Pan-India Legal Literacy and Legal Awareness.	Time taken from receipt of complete proposal to approval.	90	Days	5	Records of Access to Justice Division of Department  of  Justice.
+6	DISHA – Release of fund in instalments for various programmes under DISHA.	Time taken from receipt of request to issue of sanction order for release of grant.	30	Days	2	Records of Department of Justice.
+7	Release of funds in instalments for above projects.	Time taken from receipt of claim till completion of project.	30	Days	2	Records of Department of Justice.
+8	Release of grant to the States/UTs under the Centrally Sponsored Schemes for Infrastructure Development of Judiciary.	Time taken from receipt of complete proposals from the State/UT Governments and expenditure shown on the PFMS for the previous grants along with the matching State/UT share to issue of sanction order for release of grants.	30	Days	8	Records of Department of Justice.
+9	Release of grants to the States / UTs for Gram Nyayalayas.	Time taken from receipt of complete proposals, statement of expenditure from the State/UT Governments to issue of sanction order for release of grant.	30	Days	5	Records of Department of Justice.
+10	Release of funds to NIC & e-Committee of the Supreme Court under e-Courts project Phase-III.	Time taken from receipt of complete proposal from to e-Committee to issue of sanction order for release of funds	20	Days	8	Records of Department of Justice.
+11	Release of grants to National Judicial Academy.	Time taken from receipt of complete proposal from National Judicial Academy to issue of sanction order for release of grants.	30	Days	4	Records of Department of Justice.
+12 (a)	Releases of central share of funds under FTSC Scheme.	Time taken from receipt of Expenditure Statement from State/UT Govts. to issue of sanction order for reimbursement of funds.	30	Days	8	Records of Department of Justice.
+(b)	Release of funds for the 10 functional Special Courts, set up for trial of criminal cases involving elected MPs/MLAs as per directions of the Supreme Court of India in WP (C) 699 of 2016 dated 01.11.2017.	Time taken from receipt of proposal from concerned State Govt to issue of sanction order for release of funds.	30	Days	2	Records of Department of Justice.
+13 (a)	Grievances related to Supreme Court/ High Court Judges.	Time taken from receipt of complaint to issue of letter forwarding the complaint to the Supreme Court/ High Courts.	30	Days	4	Records of Department of Justice.
+(b)	Grievances related to District and Subordinate Courts.	Time taken from receipt of complaint to issue of letter forwarding the complaint to the High Courts.	30	Days	6	Records of Department of Justice.
+(c)	Grievances relating to other Ministries/Departments or State Governments or other agencies.	Time taken from receipt of complaint to issue of letter forwarding the complaint to the concerned Ministries/Departments or State Governments or other agencies.	30	Days	2	Records of Department of Justice.
+(d)	Grievances which can be addressed by Administration Unit of the Department of Justice	Time taken from receipt of complaint, examination and decision.	30	Days	2	Records of Department of Justice.
+14	Issue of orders sanctioning pension and other retirement benefits to Judges of the Supreme Court /High Courts.	Time taken from receipt of proposal from Pay & Accounts office, Supreme Court and the Office of the Accountant General of States/UTs to issue of order sanctioning pension and other retirement benefits.	15	Days	8	Records of Department of Justice.
+15	Issue of orders sanctioning leave to the Judges of Supreme Court / Delhi High Court and Punjab & Haryana High Court.	Time taken from receipt of complete proposal to Issue of order sanctioning grant of leave.	15	Days	5	Records of Department of Justice.
+
+==================================================
+
+Table 3:
+SI. No.	Name of the Public Grievance Officer	Landline Number	email
+1	Niraj Kumar Gayagi,Joint Secretary	011-23385020	jsa2j[-]doj[at]gov[dot]in
+
+==================================================
+
+Table 4:
+SI. No.	Name of the Nodal Officer for Citizens’ Charter	Landline Number	email
+1	Pravash Prashun Pandey,Joint Secretary	011-23381496	pravash[dot]panday2[at]gov[dot]in
+
+==================================================
+
+Table 5:
+SI. No.	Stake holder’s/Client’s Description
+1	State/UT Governments
+2	Supreme Court
+3	High Courts
+4	General Public
+5	Judges of the Supreme Court and High Courts.
+6	Non-Government Organisations(NGOs)
+
+==================================================
+
+Table 6:
+SI. No.	Responsibility Centres and Subordinate Organizations	Landline number	E-mail	Mobile Number	Address
+1	-NIL_				
+
+==================================================
+
+Table 7:
+SI. No.	Indicative Expectations from Service Recipients
+1	Forward complete proposal for appointment / transfer of Judges giving all the details
+2	Forward complete proposal to the Department of Justice giving details of the project/ proposals along with The Utilisation Certificate and the Progress Report.
+3	Copy of Notification setting up the courts for release of non-recurring grants for Gram Nyayalayas.
+4	Complete proposals giving details of pension and other retirement benefits.
+
+==================================================
+

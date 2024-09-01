@@ -1,0 +1,18 @@
+The Public Financial Management System (PFMS) is a web-based financial management application developed and implemented by the Controller General of Accounts (CGA), Department of Expenditure, Ministry of Finance, Government of India.
+PFMS started during 2009 with the objective of tracking funds released under all Plan schemes of Government of India, and real time reporting of expenditure at all levels of Programme implementation. Gradually, it has been envisaged that digitization of accounts shall be achieved through PFMS and beginning with Pay & Accounts Offices payments, the O/o CGA did further value addition by bringing in more financial activities of the Government of India in the ambit of PFMS. The outputs / deliverables for the various modes / functions of PFMS include (but are not limited to):
+
+Payment & Exchequer Control
+Payment & Exchequer Control:
+Article 283 (1) of the constitution paved way for framing of Government of India Receipts and Payments Rules, which govern the payment and exchequer control functions. PFMS which has codified these rules facilitates this entire process online in a seamless and paperless manner.
+
+Accounting of Receipts
+Accounting of Receipts, Compilation of Accounts and Preparation of Fiscal Reports:
+The PFMS is integrated into CBDT and CBIC systems fetching near-real-time transaction-wise information collection and facilitating accounting & reporting for the same. PFMS also has an online receipts portal called ‘Bharatkosh’ or NTRP for collecting online Non-Tax Revenue receipts from all the payees. The annual account of the Union Government is derived from the transactions affected and reported on PFMS throughout the financial year.
+
+Compilation of Accounts and Preparation of Fiscal Reports
+Mandate for Direct Benefit Transfer (DBT):
+PFMS is also the channel for payment, accounting and reporting under Direct Benefit Transfer. Every Department/Ministry of Government of India, State Government and its Implementing Agencies transfers funds electronically to beneficiary (individual or institution) through PFMS. To facilitate the above, PFMS has interface with other Beneficiary management applications/systems of different Ministries and Departments, such as PM-KISAN, NSAP, MNREGASoft, AwasSoft etc.
+
+Moving from the prevailing prescriptive fund release system to a “just in time” fund release, minimizing float with the banks thereby leading to better cash management.
+Transitioning from a credit push (a-priori release of funds to various implementing agencies) to debit pull based fund transfer system in which a debit to central pool is triggered only when payment instructions are issued on the system by program implementing agencies.
+Progressing from the current system of booking fund releases as ‘expenditure’ to a system of booking fund releases as ‘transfers’ and actual utilization reported from the programme implementing agencies as ‘expenditure’.

@@ -1,0 +1,75 @@
+Table 1:
+Name	Designation	Email	Address	Phone	Fax	Room No
+Shri Arjun Ram Meghwal	Hon’ble Minister of State, Law and Justice (IC)	mljoffice[at]gov[dot]in	4th Floor, 'A' Wing, Shastri Bhawan	01123386974	01123384241	402-A
+Dr. Rajiv Kumar Verma	PS		4th Floor, 'A' Wing, Shastri Bhawan	01123387557	01123384241	402-A
+Shri Anshu Bhardwaj	Addl. PS		4th Floor, 'A' Wing, Shastri Bhawan	01123387557	01123384241	403-A
+Shri R.K. Mishra	Addl. PS		4th Floor, 'A' Wing, Shastri Bhawan	01123387557	01123384241	403-A
+Shri Aman Chawla	PPS		4th Floor, 'A' Wing, Shastri Bhawan	01123387557		403-A
+Shri Mukesh Kumar	Asstt. PS		4th Floor, 'A' Wing, Shastri Bhawan	01123387557	01123384241	403-A
+Shri Teja Ram Meghwal	First PA		4th Floor, 'A' Wing, Shastri Bhawan	01123387557	01123384241	403-A
+Personal Section	Personal Section		4th Floor, 'A' Wing, Shastri Bhawan	01123070045		403-A
+
+==================================================
+
+Table 2:
+Name	Designation	Email	Address	Phone	Fax	Room No
+Shri Raj Kumar Goyal	Secretary (Justice)	secy-jus[at]gov[dot]in	26, Mansingh Road, Jaisalmer House	01123383674	01123384516	14
+Shri S.K. Mishra	PPS to Secretary (Justice)	sk[dot]mishra74[at]nic[dot]in	26, Mansingh Road, Jaisalmer House	01123383674	01123384516	14-A
+
+==================================================
+
+Table 3:
+Name	Designation	Email	Address	Phone	Fax	Room No
+Shri Pravash Prashun Pandey	Joint Secretary (eCourts, Justice-II and National Judicial Academy)	pravash[dot]panday2[at]gov[dot]in	26, Mansingh Road, Jaisalmer House	01123381496	01123381496	25
+Shri Niraj Kumar Gayagi	Joint Secretary (Access to Justice & Legal Aid to Poor, Justice-I and Grievances)	jsa2j-doj[at]gov[dot]in	26, Mansingh Road, Jaisalmer House	01123385020	01123385020	01
+Shri Gaurav Masaldan	Joint Secretary (Administration, Coordination and National Mission for Justice Delivery & Legal Reforms)	masaldan[dot]gaurav[at]nic[dot]in	26, Mansingh Road, Jaisalmer House	01123072142	01123072142	04
+Shri Jagannath Srinivasan	Joint Secretary (Appointments)	jsapp-doj[at]gov[dot]in	26, Mansingh Road, Jaisalmer House	01123383037	01123072387	16
+
+==================================================
+
+Table 4:
+Name	Designation	Email	Address	Phone	Fax	Room No
+Ms. Radha Katyal Narang	Director (National Mission & Judicial Reforms-I)	radha[dot]katyal[at]gov[dot]in	26, Mansingh Road, Jaisalmer House	01123070673		40-A
+Shri Yashasvi Kumar	Director (National Mission & Judicial Reforms-II)	yashasvikumar[dot]dad[at]gov[dot]in	26, Mansingh Road, Jaisalmer House	01123072135		28
+Shri Ashok Kumar	Director (e-Courts)	dir-ecourts-doj[at]gov[dot]in	26, Mansingh Road, Jaisalmer House	01123072145	01123072152	12
+Shri B. Chandra Mohiyar	Director (Access to Justice and Legal Aid to Poor)	dirj1-doj[at]gov[dot]in	26, Mansingh Road, Jaisalmer House	01123385332		12-D
+Shri Anil Sharma	Deputy Secretary (Justice-I)	sharma[dot]anil[at]nic[dot]in	26, Mansingh Road, Jaisalmer House	01123072139		34-A
+Shri Narayan Prasad	Deputy Secretary (Appointments)	n[dot]prasad68[at]gov[dot]in	26, Mansingh Road, Jaisalmer House	01123072149	01123072149	12-B
+Shri R.C. Ahuja	Deputy Secretary (Administration & Coordination)	rc[dot]ahuja[at]nic[dot]in	26, Mansingh Road, Jaisalmer House	01123382570		26
+Shri Biswanath Sahoo	Deputy Secretary (Justice-II)	b[dot]sahoo66[at]nic[dot]in	26, Mansingh Road, Jaisalmer House			30
+
+==================================================
+
+Table 5:
+Name	Designation	Email	Address	Phone	Fax	Room No
+Shri Sanjay Kumar	Under Secretary (Admn-I)	yadav[dot]sanjay05[at]nic[dot]in	26, Mansingh Road, Jaisalmer House	01123072137	01123072137	22-A
+Shri A.S. Lungreishang	Under Secretary (Admn-II)	shanglai[dot]a[at]nic[dot]in	26, Mansingh Road, Jaisalmer House			
+Shri M.S. P. Dara	Under Secretary (Coordination)	mspaul[dot]dara[at]nic[dot]in	26, Mansingh Road, Jaisalmer House			40-B
+Ms. Amarjeet Sroa	Under Secretary (National Mission & Judicial Reforms-I)	amarjeet[dot]sroa[at]nic[dot]in	26, Mansingh Road, Jaisalmer House	01123072140		23
+Shri Gaurav Kumar Tripathi	Under Secretary (National Mission & Judicial Reforms-II)	gaurav[dot]tripathi[at]nic[dot]in	26, Mansingh Road, Jaisalmer House	01123072140		23
+Shri Rang Lal Meena	Under Secretary (e-Courts)		26, Mansingh Road, Jaisalmer House			
+Shri Prem Chand	Under Secretary (Appointments-I)	prem[dot]chand77[at]nic[dot]in	26, Mansingh Road, Jaisalmer House	01123382978		12-A
+Shri Anant Kumar	Under Secretary (Appointments-II)	anant[dot]kumar43[at]gov[dot]in	26, Mansingh Road, Jaisalmer House	01123072138		05
+Shri Vikash Kumar	Under Secretary (Justice-I)	vikashkumar[dot]edu[at]nic[dot]in	26, Mansingh Road, Jaisalmer House			
+Ms. Lalita T. Hedaoo	Under Secretary (Justice-II)	lalita[dot]tejram[at]gov[dot]in	26, Mansingh Road, Jaisalmer House			23
+Shri Narendra Kumar	Under Secretary (Access to Justice and Legal Aid to Poor)	nk[dot]tongar[at]gov[dot]in	26, Mansingh Road, Jaisalmer House			
+
+==================================================
+
+Table 6:
+Name	Designation	Email	Address	Phone	Fax	Room No
+Shri Sanjay Kumar Tiwari	Section Officer (Admn-I)	s[dot]tiwari73[at]gov[dot]in	26, Mansingh Road, Jaisalmer House			19
+Shri Rahul Chhabra	Section Officer (Admn-II)	r[dot]chhabra[at]nic[dot]in	26, Mansingh Road, Jaisalmer House			29
+Shri Akash Kumar Jaiswal	Section Officer (Coordination)	akash[dot]jaiswal88[at]nic[dot]in	26, Mansingh Road, Jaisalmer House	01123072141		24
+Shri Sandeep Biswas	Section Officer (R & I)	sandeep[dot]biswas[at]nic[dot]in	26, Mansingh Road, Jaisalmer House	01123070673		06
+Shri Rajesh Sagar	Section Officer (RTI)	rajesh[dot]kumar72[at]nic[dot]in	26, Mansingh Road, Jaisalmer House	01123385346	01123385346	22
+Shri Hunny Chugh	Section Officer (Cash)	hunny[dot]chugh[at]gov[dot]in	26, Mansingh Road, Jaisalmer House	01123072141		24
+Shri Narendra Kumar Verma	Section Officer (National Mission & Judicial Reforms-I)	narendra[dot]verma78[at]nic[dot]in	26, Mansingh Road, Jaisalmer House	01123072140		23
+Ms. Chhavi Gulia	Section Officer (Appointments)	chhavi[dot]gulia[at]gov[dot]in	26, Mansingh Road, Jaisalmer House	01123383087		05
+Shri Hemendra Singh	Section Officer (Justice-I)	hemendra[dot]singh65[at]gov[dot]in	26, Mansingh Road, Jaisalmer House	01123782465		34
+Shri V.K. Chhikara	Section Officer (Justice-II)	vk[dot]chhikara28[at]gov[dot]in	26, Mansingh Road, Jaisalmer House	01123385346		22
+Shri Ram Singh	Section Officer (Access to Justice)	ramsingh[dot]66[at]gov[dot]in	26, Mansingh Road, Jaisalmer House	01123072147		36-A
+Shri Suresh Kumar Mahan	Section Officer (eCourts)	suresh[dot]mahan[at]gov[dot]in	26, Mansingh Road, Jaisalmer House	01123072552	01123072552	27
+
+==================================================
+
