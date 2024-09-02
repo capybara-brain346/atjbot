@@ -1,0 +1,22 @@
+“The Doing Business Report* was the flagship publication of the World Bank Group that benchmarked business regulations in 191 economies on 10 areas of business regulation such as: Starting a Business, Dealing with Construction Permits, Getting Electricity, Registering Property, Getting Credit, Protecting Minority Investors, Paying Taxes,Trading across Borders, Enforcing Contracts, and Resolving Insolvency.
+The Ease of Doing Business (EoDB) index was a ranking system established bythe World Bank Group wherein the ‘higher rankings’ (a lower numerical value)indicated better and usually simpler regulations for businesses and strongerprotections of property rights.The Ease Of Doing Business Score showed an economy’s absolute positionrelative to the best regulatory performance, whereas the ease of doing businessranking was an indication of an economy’s position relative to that of othereconomies.
+The Enforcing Contracts indicator measured the time and cost for the resolution of a standardized commercial dispute as well as a series of good practices in the judiciary. Therefore, Time, Cost and Quality of Judicial Process were the three variables which the World Bank had taken into account for ranking the countries on the Enforcing Contracts parameter of the Ease of Doing Business Ranking. Only Delhi and Mumbai were under the purview of the Ease of Doing Business survey by World Bank.
+The Department of Justice is the nodal department for the Enforcing Contracts Indicator. The Government of India has been aggressively pursuing various reform measures to create an effective, efficient, transparent and robust ‘Contract Enforcement Regime’. Several rounds of meetings have been held with the judicial and legal fraternity, educational institutions, leading law firms, corporate bodies, etc. to work in an integrated manner to improve the quality and efficiency of commercial courts.
+The ‘Doing Business Report’ by World Bank Group has been discontinued. The World Bank is working on a new and more comprehensive framework called Business-Ready for assessing the business and investment climate in economies worldwide.
+
+Methodology
+The data for the Ease of Doing Business rankings was collected by a combination of study of the codes of civil procedure, court regulations as well as questionnaires survey by local litigation lawyers and judges.
+
+
+The performance of any country in “Enforcing Contracts” indicator was measured on the basis of the following parameters:
+
+Time Estimates For Commercial Cases
+This includes time taken during filing and service phase, trial and judgment phase, and enforcement of judgment phase.
+
+Cost Estimates For Commercial Cases
+This includes attorney fees, court fees (up to judgment only) and expert fees, and enforcement fees.
+
+Quality of Judicial Process Index Resolution
+This includes court structure and proceedings, case management, court automation, and alternative dispute resolution.
+
+The Overall Rank of India in the Doing Business Report 2015 was 142 out of 190 economies. The rank improved to 63rd Position in the Doing Business Report 2020 released in October 2019. This was a significant improvement of 79 positions from the Doing Business Report 2015. In Enforcing Contracts indicator, India achieved 163rd position in the Doing Business Report 2020, an improvement of 23 positions from the 186th rank in the Doing Business Report 2015.

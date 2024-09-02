@@ -1,0 +1,61 @@
+Phase-III
+Cabinet approves eCourts Phase III for 4 years
+The Union Cabinet chaired by the Prime Minister Shri Narendra Modi has approved the eCourts Project Phase III as a Central Sector Scheme spanning four years (2023 onwards) with financial outlay of Rs.7210 crore.
+
+In line with the vision of Hon’ble Prime Minister Shri Narendra Modi ji’s “Sabka Sath, Sabka Vikas and Sabka Vishwas”, eCourts Mission Mode Project is the prime mover for improving access to justice using technology. As part of the National eGovernance Plan, the e-Courts Project is under implementation since 2007 for ICT enablement of the Indian Judiciary the Phase II of which has concluded in 2023. Phase III of the e-Courts Project in India is rooted in philosophy of “access and inclusion”.
+
+Taking the gains of Phase-I and Phase-II to the next level, the e-Courts Phase-III aims to usher in a regime of maximum ease of justice by moving towards digital, online and paperless courts through digitization of the entire court records including legacy records and by bringing in universalization of e-Filing/ e-Payments through saturation of all court complexes with e-Sewa Kendras. It will put in place intelligent smart systems enabling data-based decision making for judges and registries while scheduling or prioritizing cases. The main objective of the Phase-III is to create a unified technology platform for the judiciary, which will provide a seamless and paperless interface between the courts, the litigants and other stakeholders.
+
+The Central Sector Scheme of eCourts Phase III is being implemented under the joint partnership of Department of Justice, Ministry of Law & Justice, Government of India and eCommittee, Supreme Court of India, in a decentralized manner through the respective High Courts to develop a judicial system that would promote ease of justice by making the system more accessible, affordable, reliable, predictable, and transparent for all stakeholders.
+
+Table 1:
+S.No.	Scheme Component	Cost Estimate (Total (In Rs. Cr.)
+1.	Scanning, Digitization and Digital Preservation of Case Records	2038.40
+2.	Cloud Infrastructure	1205.23
+3.	Additional hardware to existing courts	643.66
+4.	Infrastructure in newly set up courts	426.25
+5.	Virtual Courts	413.08
+6.	eSewa Kendra	394.48
+7.	Paperless Court	359.20
+8.	System and Application Software Development	243.52
+9.	Solar Power Backup	229.50
+10.	Video Conferencing set-up	228.48
+11.	e- filing	215.97
+12.	Connectivity (Primary + Redundancy)	208.72
+13.	Capacity Building	208.52
+14.	CLASS (Courtroom Live-Audio Visual Streaming System)	112.26
+15.	Human Resources	56.67
+16.	Future Technological Advancements	53.57
+17.	Judicial process re-engineering	33.00
+18.	Disabled friendly ICT enabled facilities	27.54
+19.	NSTEP	25.75
+20.	Online Dispute Resolution (ODR)	23.72
+21.	Knowledge Management System	23.30
+22.	e-Office for High Courts & District Courts	21.10
+23.	Integration with Inter-Operable Criminal Justice System (ICJS)	11.78
+24.	S3WAAS platform	6.35
+	TOTAL	7210
+
+==================================================
+
+The expected outcomes of the scheme are as follows:
+
+Citizens who do not have access to technology can access the judicial services from eSewa Kendras, thus bridging the digital divide
+
+Digitization of court records lays the foundation for all other digital services in the project. It enables processes to become more environmental friendly by minimizing paper-based filings and reducing the physical movement of documents.
+
+Virtual participation in the court proceedings thus reducing costs associated with court proceedings, such as travel expenses for witnesses, judges, and other stakeholders.
+
+Payment of court fees, fines and penalties from anywhere, anytime.
+
+Expansion of eFiling for reducing the time and effort required to file documents. Thereby minimizing human errors as documents are automatically checked and also prevent further creation of paper based records.
+
+Use of latest technologies like AI and its subsets Machine Learning (ML), Optical Character Recognition (OCR), Natural Language Processing (NLP) to provide a smoother user experience by building a “smart” ecosystem. Registries will have less data entry and minimal file scrutiny facilitating better decision-making and policy planning. It envisages smart scheduling, intelligent system that enables data-based decision making for judges and registries, allows for greater predictability and optimisation of the capacity of judges and lawyers.
+
+Expansion of virtual courts beyond the adjudication of traffic violation cases, thereby eliminating the presence of litigant or lawyer in the court.
+
+Enhanced accuracy and transparency in court proceedings
+
+Emphasis on automated delivery of court summons by further expanding the NSTEP (National Serving and Tracking of Electronic Processes), hence drastically reducing the delays in trials.
+
+Use of emerging technologies in court processes will make them more efficient and effective, hence contributing significantly towards the reduction of pendency cases.

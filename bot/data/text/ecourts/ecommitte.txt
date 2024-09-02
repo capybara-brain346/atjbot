@@ -1,0 +1,54 @@
+Table 1:
+Profile Picture	Name	Designation
+	Hon’ble Dr Justice Dhananjaya Y Chandrachud, The Chief Justice of India	Patron-in-Chief and Chairperson
+
+==================================================
+
+
+Table 2:
+Profile Picture	Name	Designation	Email
+	Kuntal Sharma Pathak	Member Processes	mp-ecommittee[at]aij[dot]gov[dot]in
+	Dr Parvinder Singh Arora	Member Project Management	mpm-ecommittee[at]aij[dot]gov[dot]in
+	Ms R. Arulmozhiselvi	Member Human Resources	hr-ecommittee[at]aij[dot]gov[dot]in
+	Mr Ashish J. Shiradhonkar	Member Systems	ms-ecommittee[at]aij[dot]gov[dot]in
+
+==================================================
+
+
+Table 3:
+Name	Designation
+Shri. R. Venkataramani	Attorney General for India
+Shri. Tushar Mehta	Solicitor General of India
+Shri. Gopal Subramanium	Senior Advocate
+Representative of Bar Council of India	Bar Council of India
+Shri Atul Madhukar Kurhekar	Secretary General, Supreme Court of India
+Shri R. K. Goyal	Secretary, Department of Justice.
+Shri S. Krishnan	Secretary, Ministry of Electronics & Information Technology (MeitY)
+Mission Director	eGovernance, MeitY
+Shri Amit Agrawal	Director General, NIC
+Shri. Magesh Ethirajan	Director General, C-DAC
+Joint Secretary (Plan Finance-II)	Department of Expenditure
+Shri. Pravash Prashun Pandey	Joint Secretary and Mission Leader, e-Courts MMP
+
+==================================================
+
+Table 4:
+Name	Designation
+Mr. Hansraj Narula	Branch Officer
+Ms. Rama Chopra	Sr. Personal Assistant
+Ms. Manaswini Devi Sharma	Sr. Personal Assistant
+Ms. Sneha	Sr. Personal Assistant
+Ms. Vineeta Rawat Negi	Sr. Court Assistant
+Mr. Neeraj Kumar	Sr. Court Assistant
+Mr. Praveen Kaushik	Sr. Court Assistant
+Mr. Ashish Daisal	Sr. Court Assistant
+Mr. Saurabh Vashist	Sr. Court Assistant
+Mr. Nitin Kashyap	Jr. Court Assistant
+Mr. Hans Raj Singh	DDMO Grade-II
+Mr. Zarif Ahmed	Sr. Court Attendant
+Mr. Deepak Kumar	Jr. Court Attendant
+Mr. Sajil Philip	Jr. Court Attendant
+Mr. Raman Thakur	Jr. Court Attendant
+
+==================================================
+
