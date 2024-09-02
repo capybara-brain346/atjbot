@@ -1,2 +1,1 @@
-
-        message = data["message"]
+flask_cors
