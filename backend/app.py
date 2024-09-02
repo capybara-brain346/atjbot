@@ -22,10 +22,11 @@ logging.basicConfig(level=logging.INFO)
 
 CORS(app, resources={r"/*": {"origins": "*"}})
 
+
 def query_rag(query_text: str, prompt_template: str) -> str:
     try:
         db = Chroma(
-            persist_directory="bot/chroma",
+            persist_directory="chroma",
             embedding_function=GoogleGenerativeAIEmbeddings(
                 model="models/embedding-001"
             ),
