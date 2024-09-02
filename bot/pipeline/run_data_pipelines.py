@@ -16,7 +16,7 @@ def main() -> None:
     pipeline_dict = {
         "links": GetLinks,
         "chips": GetChipStats,
-        "pendingcases": GetPendingCases,
+        "njdg": GetPendingCases,
         "tables": GetTables,
     }
 

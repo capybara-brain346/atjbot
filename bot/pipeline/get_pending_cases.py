@@ -6,7 +6,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
-from typing import Dict
+from typing import Dict, List
 from bs4 import BeautifulSoup
 
 
@@ -47,7 +47,7 @@ class GetChipStats:
             for labels, values in zip(data_labels, cummulative_stats_clean)
         }
 
-    def save_links(self, stats: Dict[str, str]):
+    def save_stats(self, stats: Dict[str, str]):
         chips_data = {
             "Label": [label for label, _values in stats.items()],
             "Statistics": [values for _label, values in stats.items()],
@@ -64,7 +64,7 @@ class GetChipStats:
     def run_pipeline(self) -> None:
         body = self.make_request()
         stats = self.extract_cummulative_stats(body=body)
-        self.save_links(stats=stats)
+        self.save_stats(stats=stats)
         print("Chips pipeline ran successfully.")
 
 
@@ -101,5 +101,22 @@ class GetPendingCases:
         print(all_data)
         return all_data
 
+    def save_cases(self, case_data):
+        FILE = r"bot\data\njdg\pending_case_data.txt"
+
+        with open(FILE, "w") as f:
+            f.truncate()
+            try:
+                for item in case_data[0]:
+                    f.write(f"{item}\n")
+            except ValueError as e:
+                print(f"Could not write njdg data onto disk: {e}")
+
     def close(self):
         self.driver.quit()
+
+    def run_pipeline(self):
+        self.make_request()
+        case_data = self.extract_pending_cases()
+        self.save_cases(case_data=case_data)
+        self.close()
