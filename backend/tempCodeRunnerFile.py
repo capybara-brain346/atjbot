@@ -1,2 +1,0 @@
-
-        message = data["message"]
