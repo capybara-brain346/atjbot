@@ -108,7 +108,7 @@ var S3WaaSAccessibilityParams = {"blogInfoName":"Department of Justice","default
     <!--body start-->
 <body class="home page-template-default page page-id-11468 lang-en style-1 home-doj wpb-js-composer js-comp-ver-6.11.0 vc_responsive" style="font-size: 14px;">
     <div class="max-w-lg fixed bottom-8 right-8 z-50">
-        <div class="chatbox bg-gray-100 h-[450px] w-[350px] shadow-lg rounded-t-2xl transition-opacity duration-500 ease-in-out opacity-0 invisible" id="chatbox">
+        <div class="chatbox bg-gray-100 h-[450px] w-[350px] shadow-lg rounded-t-2xl transition-opacity duration-500 ease-in-out opacity-0 invisible flex flex-col" id="chatbox">
             <div class="bg-gradient-to-r from-yellow-800 to-yellow-500 flex items-center justify-center p-4 rounded-t-2xl shadow-md">
                 <h2 class="text-white">Chat Support</h2>
             </div>
@@ -120,20 +120,23 @@ var S3WaaSAccessibilityParams = {"blogInfoName":"Department of Justice","default
                 <button class="p-1.5 bg-transparent border-none cursor-pointer" id="sendButton">Send</button>
             </div>
         </div>
-        <button class="p-2.5 bg-white border-none rounded-full shadow-lg cursor-pointer" id="chatboxButton">Chat</button>
-    </div>
+        <button class="p-6 bg-gradient-to-r from-red-400 via-white-900 to-green-500 border-none rounded-full shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2 cursor-pointer" id="chatboxButton">
+            <span class="text-lg font-semibold text-gray-800">Chat with us</span>
+        </button>
+        
+          </div>
+    
     
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         $(document).ready(function () {
             // Toggle chatbot visibility
             $('#chatboxButton').on('click', function () {
-                $('#chatbox').toggleClass('opacity-0 opacity-100 invisible');
-    
-                // Focus on the input field when the chatbot is opened
-                if (!$('#chatbox').hasClass('invisible')) {
-                    $("#messageInput").focus();
-                }
+                const chatbox = $('#chatbox');
+                chatbox.toggleClass('opacity-0 opacity-100 invisible');
+                
+                // Debugging output
+                console.log('Chatbox visibility toggled:', chatbox.hasClass('invisible'));
             });
     
             // Send message to server
@@ -182,11 +185,60 @@ var S3WaaSAccessibilityParams = {"blogInfoName":"Department of Justice","default
     
 
 
-      
-    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 <header id="mainHeader">
     <!--topBar start-->
     <div id="topBar">
