@@ -1,0 +1,606 @@
+.SkipContent {
+  float: left;
+  width: 100%;
+  height: 15px; }
+
+.gen-list {
+  display: inline-block;
+  width: 100%; }
+
+/*.gen-list h2{
+  padding-bottom: 10px;
+}*/
+
+.gen-list.box-list {
+  display: inline-block;
+  width: 100%; }
+  .gen-list.box-list ul {
+    margin-left: -5px; }
+    .gen-list.box-list ul li {
+      width: calc(32.9% - 10px);
+      display: inline-block;
+      margin: 5px;}
+
+      @media screen and (max-width: 768px){
+          .gen-list.box-list ul li {
+            width: calc(100% - 10px);}
+      }
+
+.border-radius-round {
+  border-radius: 50% !important; }
+
+.border-radius-large {
+  border-radius: 15px !important; }
+
+.border-radius-medium {
+  border-radius: 7px !important; }
+
+.border-radius-none {
+  border-radius: 0 !important; }
+
+.no-bg, .list-icon.no-bg {
+	background-color: transparent !important;
+	color: #000 !important;
+	border: 1px solid #848484 !important;
+}
+.fore-color-white .no-bg, .fore-color-white .list-icon.no-bg {
+  color: #fff !important;
+}
+.gen-list.fore-color-white .no-bg, 
+.gen-list.fore-color-white .list-icon.no-bg{
+  border-color: #fff !important;
+}
+
+.no-bg.photo-glry-cntr, .no-bg.events-wrapper  { border:none !important; color: inherit !important;} 
+
+.white-bg, .no-bg .list-icon.white-bg, .list-icon.white-bg {
+  background-color: #fff !important; }
+
+.blue-bg, li.no-bg .list-icon.blue-bg, .list-icon.blue-bg {
+  background-color: #1673b4 !important; }
+
+.yellow-bg, .no-bg .list-icon.yellow-bg, .list-icon.yellow-bg {
+  background-color: #ff9f08 !important; }
+
+.red-bg, .no-bg .list-icon.red-bg, .list-icon.red-bg {
+  background-color: #BD3334 !important; }
+.green-bg, .no-bg .list-icon.green-bg, .list-icon.green-bg {
+  background-color: #677314 !important; }
+.white-bg, .no-bg .list-icon.white-bg, .list-icon.white-bg {
+  background-color: #fff !important; color: #000 !important; }
+.orange-bg, .no-bg .list-icon.orange-bg, .list-icon.orange-bg {
+  background-color: #ad3a05 !important; }
+.gray-bg, .no-bg .list-icon.gray-bg, .list-icon.gray-bg {
+  background-color: #fff2f2 !important; color: #000 !important; }
+
+.dark-blue-bg, .no-bg .list-icon.dark-blue-bg, .list-icon.dark-blue-bg {
+  background-color: #2b3d6b !important; }
+
+.light-gray-bg {
+  background-color: #f1f1f1 !important; }
+.contrast 
+li.no-bg .list-icon {
+  background-color: transparent !important; }
+  li.no-bg .list-icon.light-gray-bg {
+    background-color: #f1f1f1 !important; }
+
+.white-bg.list-icon {
+  background-color: #fff !important; }
+
+.blue-bg.list-icon, .list-icon {
+  background-color: #0972a8 !important; }
+
+.green-bg.list-icon {
+  background-color: #0C9E16 !important; }
+
+.red-bg.list-icon {
+  background-color: #BD3334 !important; }
+
+.orange-bg.list-icon {
+  background-color: #ad3a05 !important; }
+
+.gray-bg.list-icon {
+  background-color: #fff2f2 !important; }
+
+.light-gray-bg.list-icon {
+  background-color: #CCCCCC !important; }
+
+.dark-blue-bg {
+  background-color: #0972a8 !important; }
+
+.dark-green-bg {
+  background-color: #0C9E16 !important; }
+
+.dark-red-bg {
+  background-color: #BD3334 !important; }
+
+.dark-orange-bg {
+  background-color: #D44706 !important; }
+
+.dark-gray-bg {
+  background-color: #888787 !important; }
+
+.gen-list .padding-20 {
+  padding: 20px 0 !important; }
+  
+.padding-20 {
+  padding: 20px !important; }
+
+.padding-15 {
+  padding: 15px !important; }
+
+.padding-10 {
+  padding: 10px !important; }
+
+.padding-7 {
+  padding: 7px !important; }
+
+.padding-5 {
+  padding: 5px !important; }
+
+.padding-3 {
+  padding: 3px !important; }
+
+.padding-0 {
+  padding: 0px !important; }
+
+.blue-border {
+  border: 1px solid #067dbb !important; }
+
+.green-border {
+  border: 1px solid #06880e !important; }
+
+.red-border {
+  border: 1px solid #cc4647 !important; }
+
+.orange-border {
+  border: 1px solid #d04a0d !important; }
+
+.gray-border {
+  border: 1px solid #737373 !important; }
+
+.light-gray-border {
+  border: 1px solid #f1f1f1 !important; }
+
+.white-bg .list-text, .white-bg .list-icon {
+  color: #000 !important; }
+
+li.no-bg .list-text, li.no-bg .list-icon {
+  color: #000 !important; }
+
+.gen-list.big-icon-list .list-icon {
+  width: 90px !important;
+  height: 90px !important; }
+  .gen-list.big-icon-list .list-icon:before {
+    font-size: 46px !important; }
+.gen-list.big-icon-list span {
+  display: block;
+  font-size: 2em;
+  font-weight: 700; }
+.gen-list.big-icon-list .list-text {
+  font-size: 1em !important; }
+.gen-list.small-icon-list .list-text {
+  font-size: 1em !important; }
+.gen-list.small-icon-list .list-icon {
+  width: 35px !important;
+  height: 35px !important; }
+.gen-list.statistics-list .list-icon {
+  width: 47px !important;
+  height: 30px !important; }
+.gen-list.small-icon-list .list-icon:before {
+  font-size: 1.2em !important; }
+.gen-list.big-icon-list li, .gen-list.small-icon-list li, .gen-list.statistics-list li {
+  background-color: transparent !important;
+  border-color: transparent !important; }
+.gen-list.big-icon-list li a, .gen-list.small-icon-list li a, .gen-list.statistics-list li a,
+.gen-list.big-icon-list li .list-anchor, .gen-list.small-icon-list li .list-anchor, .gen-list.statistics-list li .list-anchor {
+  padding: 0 !important; }
+
+.list-icon.blue-bg, .list-icon.green-bg, .list-icon.red-bg, .list-icon.orange-bg {
+  color: #fff !important; }
+
+.list-text.black-color {
+  color: #000000 !important; }
+.list-text.white-color {
+  color: #ffffff !important; }
+.list-text.blue-color {
+  color: #067dbb !important; }
+.list-text.green-color {
+  color: #06880e !important; }
+.list-text.red-color {
+  color: #cc4647 !important; }
+.list-text.orange-color {
+  color: #d04a0d !important; }
+.list-text.gray-color {
+  color: #737373 !important; }
+
+.no-border {
+  border: none !important; }
+  .gen-list.statistics-list
+  ul {
+    margin-left: -10px; }
+    .gen-list.statistics-list
+    ul li {
+      position: relative;
+      width: 50%;
+      float: left;
+      padding: 0 10px;
+      margin-bottom: 20px; }
+      .gen-list.statistics-list
+      ul li:before {
+        content: "";
+        position: absolute;
+        left: 10px;
+        right: 62px;
+        top: 50%;
+        border-bottom: 1px solid #ABABAB; }
+      .gen-list.statistics-list ul li a, .gen-list.statistics-list ul li .list-anchor {
+        position: relative;
+        padding-right: 50px !important; }
+        .gen-list.statistics-list ul li a span.list-icon, .gen-list.statistics-list ul li .list-anchor span.list-icon {
+          position: absolute;
+          right: 0;
+          top: -5px;
+          line-height: 30px; }
+        .gen-list.statistics-list ul li a div.list-text, .gen-list.statistics-list ul li .list-anchor div.list-text {
+          background: #fff;
+          padding: 0 10px 0 0;
+          font-weight: 700; }
+  .gen-list.default-list ul {
+    padding-left: 20px; }
+    .gen-list.default-list ul li {
+      background-color: transparent !important;
+      border-radius: 0;
+      list-style-type: disc;
+      margin-bottom: 5px; }
+      .gen-list.default-list ul li a, .gen-list.default-list ul li .list-anchor {
+        padding: 5px 5px 5px 0;
+        color: #000;
+        font-size: 1em; }
+        .gen-list.default-list ul li a span.list-icon, .gen-list.default-list ul li .list-anchor span.list-icon {
+          display: none; }
+  .gen-list.carret-list ul li a span.list-icon, .gen-list.checked-list ul li a span.list-icon, .gen-list.arrow-list ul li a span.list-icon,
+  .gen-list.carret-list ul li .list-anchor span.list-icon, .gen-list.checked-list ul li .list-anchor span.list-icon, .gen-list.arrow-list ul li .list-anchor span.list-icon {
+    display: none; }
+  .gen-list.default-list ul li a div.list-text, .gen-list.default-list ul li .list-anchor div.list-text {
+    display: inherit;
+    padding-left: 0px; }
+  .gen-list.carret-list ul li, .gen-list.checked-list ul li, .gen-list.arrow-list ul li {
+    background-color: transparent !important;
+    border-radius: 0;
+    margin-bottom: 5px; }
+  .gen-list.carret-list ul li a, .gen-list.checked-list ul li a, .gen-list.arrow-list ul li a,
+  .gen-list.carret-list ul li .list-anchor, .gen-list.checked-list ul li .list-anchor, .gen-list.arrow-list ul li .list-anchor {
+    color: #000;
+    padding: 5px;
+    padding-left: 18px;
+    position: relative;
+    font-size: 1em; }
+  .gen-list.carret-list ul li a:before, .gen-list.checked-list ul li a:before, .gen-list.arrow-list ul li a:before,
+  .gen-list.carret-list ul li .list-anchor:before, .gen-list.checked-list ul li .list-anchor:before, .gen-list.arrow-list ul li .list-anchor:before {
+    font-family: 'icomoon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    font-size: 10px;
+    vertical-align: middle;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    left: 0;
+    top: 10px; }
+  .gen-list.carret-list ul li a div.list-text, .gen-list.checked-list ul li a div.list-text, .gen-list.arrow-list ul li a div.list-text,
+  .gen-list.carret-list ul li .list-anchor div.list-text, .gen-list.checked-list ul li .list-anchor div.list-text, .gen-list.arrow-list ul li .list-anchor div.list-text {
+    display: inline-block;
+    padding-left: 0px; }
+  .gen-list.carret-list ul li a:before, .gen-list.carret-list ul li .list-anchor:before {
+    content: "\e903"; }
+  .gen-list.checked-list ul li a:before, .gen-list.checked-list ul li .list-anchor:before {
+    content: "\e914"; }
+  .gen-list.arrow-list ul li a:before, .gen-list.arrow-list ul li .list-anchor:before {
+    content: "\e949"; }
+  .gen-list.no-list ul, .gen-list.square-list ul, .gen-list.circle-list ul, .gen-list.decimal-list ul, .gen-list.loweralpha-list ul, .gen-list.upperalpha-list ul, .gen-list.lowerroman-list ul, .gen-list.upperroman-list ul {
+    padding-left: 20px; }
+    .gen-list.no-list ul li, .gen-list.square-list ul li, .gen-list.circle-list ul li, .gen-list.decimal-list ul li, .gen-list.loweralpha-list ul li, .gen-list.upperalpha-list ul li, .gen-list.lowerroman-list ul li, .gen-list.upperroman-list ul li {
+      background-color: transparent !important;
+      border-radius: 0;
+      margin-bottom: 5px; }
+      .gen-list.no-list ul li a, .gen-list.square-list ul li a, .gen-list.circle-list ul li a, .gen-list.decimal-list ul li a, .gen-list.loweralpha-list ul li a, .gen-list.upperalpha-list ul li a, .gen-list.lowerroman-list ul li a, .gen-list.upperroman-list ul li a,
+      .gen-list.no-list ul li .list-anchor, .gen-list.square-list ul li .list-anchor, .gen-list.circle-list ul li .list-anchor, .gen-list.decimal-list ul li .list-anchor, .gen-list.loweralpha-list ul li .list-anchor, .gen-list.upperalpha-list ul li .list-anchor, .gen-list.lowerroman-list ul li .list-anchor, .gen-list.upperroman-list ul li .list-anchor {
+        padding: 2px 0px;
+        color: #000;
+        font-size: 1em; }
+        .gen-list.no-list ul li a span.list-icon, .gen-list.square-list ul li a span.list-icon, .gen-list.circle-list ul li a span.list-icon, .gen-list.decimal-list ul li a span.list-icon, .gen-list.loweralpha-list ul li a span.list-icon, .gen-list.upperalpha-list ul li a span.list-icon, .gen-list.lowerroman-list ul li a span.list-icon, .gen-list.upperroman-list ul li a span.list-icon,
+        .gen-list.no-list ul li .list-anchor span.list-icon, .gen-list.square-list ul li .list-anchor span.list-icon, .gen-list.circle-list ul li .list-anchor span.list-icon, .gen-list.decimal-list ul li .list-anchor span.list-icon, .gen-list.loweralpha-list ul li .list-anchor span.list-icon, .gen-list.upperalpha-list ul li .list-anchor span.list-icon, .gen-list.lowerroman-list ul li .list-anchor span.list-icon, .gen-list.upperroman-list ul li .list-anchor span.list-icon {
+          display: none; }
+        .gen-list.no-list ul li a div.list-text, .gen-list.square-list ul li a div.list-text, .gen-list.circle-list ul li a div.list-text, .gen-list.decimal-list ul li a div.list-text, .gen-list.loweralpha-list ul li a div.list-text, .gen-list.upperalpha-list ul li a div.list-text, .gen-list.lowerroman-list ul li a div.list-text, .gen-list.upperroman-list ul li a div.list-text,
+        .gen-list.no-list ul li .list-anchor div.list-text, .gen-list.square-list ul li .list-anchor div.list-text, .gen-list.circle-list ul li .list-anchor div.list-text, .gen-list.decimal-list ul li .list-anchor div.list-text, .gen-list.loweralpha-list ul li .list-anchor div.list-text, .gen-list.upperalpha-list ul li .list-anchor div.list-text, .gen-list.lowerroman-list ul li .list-anchor div.list-text, .gen-list.upperroman-list ul li .list-anchor div.list-text {
+          display: inherit;
+          padding-left: 0; }
+  .gen-list.no-list ul li {
+    list-style-type: none; }
+  .gen-list.default-list ul li {
+    list-style-type: disc; }
+  .gen-list.square-list ul li {
+    list-style-type: square; }
+  .gen-list.circle-list ul li {
+    list-style-type: circle; }
+  .gen-list.decimal-list ul li {
+    list-style-type: decimal; }
+  .gen-list.loweralpha-list ul li {
+    list-style-type: lower-alpha; }
+  .gen-list.upperalpha-list ul li {
+    list-style-type: upper-alpha; }
+  .gen-list.lowerroman-list ul li {
+    list-style-type: lower-roman; }
+  .gen-list.upperroman-list ul li {
+    list-style-type: upper-roman; }
+  .gen-list.col-two, .gen-list.col-three, .gen-list.col-four, .gen-list.col-five {
+    display: inline-block;
+    width: 100%; }
+  .gen-list.col-two ul li, .gen-list.col-three ul li, .gen-list.col-four ul li, .gen-list.col-five ul li {
+    float: left; padding-right: 20px; }
+  .gen-list.col-two ul li {
+    width: 50%;}
+  .gen-list.col-three ul li {
+    width: 33.333%; }
+  .gen-list.col-four ul li {
+    width: 25%; }
+  .gen-list.col-five ul li {
+    width: 20%; }
+  .gen-list.iconTop-textBottom-list li {
+    display: inline-block;
+    background-color: transparent;
+    width: 19%;
+    min-width: 150px;
+    margin-right: 0.5%;
+    text-align: center;
+    vertical-align: top; }
+    .gen-list.iconTop-textBottom-list li a, .gen-list.iconTop-textBottom-list li .list-anchor {
+      color: #000; }
+      .gen-list.iconTop-textBottom-list li a span.list-icon, .gen-list.iconTop-textBottom-list li .list-anchor span.list-icon {
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        margin-bottom: 15px; }
+        .gen-list.iconTop-textBottom-list li a span.list-icon:before, .gen-list.iconTop-textBottom-list li .list-anchor span.list-icon:before {
+          font-size: 30px; }
+      .gen-list.iconTop-textBottom-list li a div.list-text, .gen-list.iconTop-textBottom-list li .list-anchor div.list-text {
+        display: inherit;
+        padding-left: 0; }
+  .gen-list.iconTop-textBottom-box-list li {
+    width: 130px;
+    float: left;
+    margin: 1%;
+    padding: 1em;
+    background: #333333;
+    text-align: center;
+    display: table;
+    height: 140px;
+    -webkit-transition: 0.5s ease all;
+    transition: 0.5s ease all;
+    border-radius: 0px;
+    /*&.light-gray-bg, &.white-bg{
+    	a{
+    		color:#000;
+    		span.list-icon {
+    	 		 color:#000 !important;
+    		}
+    	}
+    }*/ }
+    .gen-list.iconTop-textBottom-box-list li a, .gen-list.iconTop-textBottom-box-list li .list-anchor {
+      color: #fff;
+      display: table-cell;
+      vertical-align: middle; padding: 0;}
+      .gen-list.iconTop-textBottom-box-list li a span.list-icon, .gen-list.iconTop-textBottom-box-list li .list-anchor span.list-icon {
+        display: inline-block;
+        width: auto;
+        height: auto;
+        line-height: 1;
+        margin-bottom: 10px;
+        background-color: transparent !important; }
+        .gen-list.iconTop-textBottom-box-list li a span.list-icon:before, .gen-list.iconTop-textBottom-box-list li .list-anchor span.list-icon:before {
+          font-size: 3em; }
+      .gen-list.iconTop-textBottom-box-list li a div.list-text, .gen-list.iconTop-textBottom-box-list li .list-anchor div.list-text {
+        display: inline-block;
+        width: 100%;
+        padding-left: 0; }
+    .gen-list.iconTop-textBottom-box-list li:last-child {
+      margin-right: 0; }
+  .gen-list.small-font a, .gen-list.small-font .list-anchor{
+    font-size: 0.7em !important; }
+  .gen-list.normal-font a {
+    font-size: 1em !important;
+  /*span.list-icon{
+	  &:before{ font-size:2em !important;}
+  }*/ }
+  .gen-list.medium-font a, .gen-list.medium-font .list-anchor {
+    font-size: 1.3em !important; }
+  .gen-list.large-font a, .gen-list.large-font .list-anchor {
+    font-size: 1.7em !important; }
+  .gen-list.x-large-font a, .gen-list.x-large-font .list-anchor {
+    font-size: 2.1em !important;
+    font-weight: 700 !important; }
+    .gen-list.fore-color-white, .gen-list.fore-color-white h2, .gen-list.fore-color-white a, .gen-list.default-list.fore-color-white li {
+    color: #fff !important; }
+    .gen-list.fore-color-white a span.list-icon {
+      color: #fff !important; }
+  .gen-list.fore-color-black a,
+  .gen-list.fore-color-black .list-anchor {
+    color: #000 !important; }
+    .gen-list.fore-color-black a span.list-icon,
+    .gen-list.fore-color-black .list-anchor span.list-icon,
+    .gen-list.fore-color-white a span.list-icon.gray-bg,
+    .gen-list.fore-color-white .list-anchor span.list-icon.gray-bg {
+      color: #000 !important; }
+  .gen-list.statistics-box-list li {
+    background-color: #333333; }
+    .gen-list.statistics-box-list li a, .gen-list.statistics-box-list li .list-anchor {
+      padding: 8px;
+      display: inline-block;
+      font-size: 1em; }
+      .gen-list.statistics-box-list li a span.list-icon, .gen-list.statistics-box-list li .list-anchor span.list-icon {
+        display: inline-block;
+        width: auto;
+        height: auto;
+        background-color: transparent !important;
+        margin-left: 5px;
+        line-height: 15px; }
+        .gen-list.statistics-box-list li a span.list-icon:before, .gen-list.statistics-box-list li .list-anchor span.list-icon:before {
+          content: "/";
+          padding-right: 5px;
+          margin-top: 2px;
+          font-size: inherit; }
+      .gen-list.statistics-box-list li a div.list-text, .gen-list.statistics-box-list li .list-anchor div.list-text {
+        float: left; }
+  .gen-list.statistics-box-list.col-two li {
+    width: 46% !important;
+    margin-right: 3%; }
+  .gen-list.fore-color-white li a div.list-text, .gen-list.fore-color-white li .list-anchor div.list-text{ color: #fff !important;}
+
+  .gen-list.title-left-align{ padding-left: 165px !important; position: relative;}
+  .gen-list.title-left-align > h2{ position: absolute; left: 0; top:15px; width: 165px; text-align: center; font-size: 1.15em;}
+  .gen-list.title-left-align > h2 span{ display: inline-block; margin-bottom: 23px; font-size: 27px; background: #ffcc00; width: 60px; height: 60px; line-height: 60px; border-radius: 6px; transform: rotate(45deg); position: relative;}
+  .gen-list.title-left-align > h2 span em{ transform: rotate(-45deg);}
+  .gen-list.title-left-align > h2 span:after{ content: ""; border: 2px solid #f89b15; position: absolute; left: 5px; bottom: 5px; width: 100%; height: 100%; border-radius: 6px;}
+
+  .gen-list.no-list ul li a:hover,
+  .gen-list.default-list ul li a:hover,
+  .gen-list.arrow-list ul li a:hover,
+  .gen-list.square-list ul li a:hover,
+  .gen-list.circle-list ul li a:hover,
+  .gen-list.decimal-list ul li a:hover,
+  .gen-list.loweralpha-list ul li a:hover,
+  .gen-list.lowerroman-list ul li a:hover,
+  .gen-list.upperalpha-list ul li a:hover,
+  .gen-list.upperroman-list ul li a:hover,
+  .gen-list.checked-list ul li a:hover{
+    text-decoration: underline;
+  }
+
+  @media (max-width: 768px) {
+    .gen-list.col-two ul li, .gen-list.col-three ul li, .gen-list.col-four ul li, .gen-list.col-five ul li {
+      width: 100%; }
+    .gen-list.box-list ul {
+      column-count: 1; } }
+
+.gen-list.statistics-list ul li a, .gen-list.small-icon-list ul li a,
+.gen-list.statistics-list ul li .list-anchor, .gen-list.small-icon-list ul li .list-anchor {
+  color: #000; }
+
+@media (max-width: 1199px) {
+ .gen-list.carret-list ul li, .gen-list.checked-list ul li, .gen-list.arrow-list ul li{ margin-bottom:0;} 
+}
+
+@media (max-width: 991px) {
+.gen-list.carret-list ul li a, .gen-list.checked-list ul li a, .gen-list.arrow-list ul li a, .gen-list.normal-font a,
+.gen-list.carret-list ul li .list-anchor, .gen-list.checked-list ul li .list-anchor, .gen-list.arrow-list ul li .list-anchor, .gen-list.normal-font .list-anchor{ font-size:0.9em !important;}
+.gen-list.iconTop-textBottom-list li {	width: 30%;	min-width: inherit !important;}
+
+} 
+
+@media (max-width: 767px) {
+.home .vc_row-o-equal-height.vc_row-flex .wpb_column.vc_column_container .vc_column-inner{ margin:0 !important;}
+.home .vc_row-o-equal-height.vc_row-has-fill .wpb_column.vc_column_container .vc_column-inner{ margin:0 20px 15px !important;}
+.home .gen-list {	padding: 15px 10px !important;}
+.home .gen-list.home-six-services{margin-top: -29px;}
+.home .gen-list.home-six-services h2{padding: 0 5px !important;}
+.gen-list.iconTop-textBottom-list li { width: 49%;}
+
+/*NiC theme style about us start*/
+.gen-list.title-left-align > h2{
+      position: inherit;
+      width: 100%;
+      text-align: center;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+      padding-bottom: 15px !important;
+    }
+    .gen-list.title-left-align > ul{
+        text-align: center;
+        padding: 0;
+        margin-top: 15px;
+    }
+    .gen-list.title-left-align > ul li{
+      list-style-type: none;
+    }
+/*NiC theme style about us end*/
+}
+@media (max-width: 640px) {
+  .gen-list.iconTop-textBottom-list li { width: 100%; margin-bottom: 15px;}
+}
+@media (max-width: 800px) {
+  .gen-list.box-list li {
+    width: 100%;
+    margin-right: 0; }
+
+  .gen-list.statistics-list ul li {
+    width: 100%; } }
+
+.contrast .gen-list.fore-color-black a span.list-icon,
+.contrast .gen-list.fore-color-black .list-anchor span.list-icon,
+.contrast .gen-list.fore-color-black a,
+.contrast .gen-list.fore-color-black .list-anchor,
+.contrast .gray-bg, .contrast .no-bg .list-icon.gray-bg, .contrast .list-icon.gray-bg { color: #ff0 !important;}
+
+@media print{
+  .gen-list.col-two ul li {
+    width: 50%;}
+  .gen-list.col-three ul li {
+    width: 33.333%; }
+  .gen-list.col-four ul li {
+    width: 25%; }
+  .gen-list.col-five ul li {
+    width: 20%; }
+}
+
+.gen-list.iconTop-textBottom-box-list .helpline-list-box li .list-text strong {
+  display: block;
+  font-size: 1.8em;
+}
+.gen-list.col-two.iconTop-textBottom-box-list .helpline-list-box li {
+  width: calc(50% - 2%);
+}
+.gen-list.col-three.iconTop-textBottom-box-list .helpline-list-box li {
+  width: calc(33.333% - 2%);
+}
+.gen-list.col-four.iconTop-textBottom-box-list .helpline-list-box li {
+  width: calc(25% - 2%);
+}
+.gen-list.col-five.iconTop-textBottom-box-list .helpline-list-box li {
+  width: calc(20% - 2%); display: inline-block;
+}
+
+.contrast .gen-list.default-list ul.helpline-list-box li .list-anchor,
+.contrast .gen-list.carret-list ul.helpline-list-box li .list-anchor, 
+.contrast .gen-list.checked-list ul.helpline-list-box li .list-anchor, 
+.contrast .gen-list.arrow-list ul.helpline-list-box li .list-anchor,
+.contrast .gen-list.no-list ul.helpline-list-box li .list-anchor,
+.contrast .gen-list.square-list ul.helpline-list-box li .list-anchor,
+.contrast .gen-list.circle-list ul.helpline-list-box li .list-anchor,
+.contrast .gen-list.decimal-list ul.helpline-list-box li .list-anchor,
+.contrast .gen-list.loweralpha-list ul.helpline-list-box li .list-anchor,
+.contrast .gen-list.upperalpha-list ul.helpline-list-box li .list-anchor,
+.contrast .gen-list.lowerroman-list ul.helpline-list-box li .list-anchor,
+.contrast .gen-list.upperroman-list ul.helpline-list-box li .list-anchor {
+  color: #fff;
+}
+.contrast .gen-list.title-left-align > h2 span{ background: #222;}
+.contrast .gen-list.title-left-align > h2 span:after { border-color:#505050;}
+
+.contrast .gen-list.fore-color-black a span.list-icon,
+.contrast .gen-list.fore-color-black .list-anchor span.list-icon,
+.contrast .gen-list.fore-color-white a span.list-icon.gray-bg,
+.contrast .gen-list.fore-color-white .list-anchor span.list-icon.gray-bg {
+  color: #fff !important;
+}
+
+@media (max-width: 579px) {
+  .gen-list.iconTop-textBottom-list li{ width:100%;}
+  .gen-list.col-three.iconTop-textBottom-box-list .helpline-list-box li,
+  .gen-list.col-two.iconTop-textBottom-box-list .helpline-list-box li,
+  .gen-list.col-five.iconTop-textBottom-box-list .helpline-list-box li,
+  .gen-list.col-four.iconTop-textBottom-box-list .helpline-list-box li {
+    width: calc(100% - 2%);
+  }
+}

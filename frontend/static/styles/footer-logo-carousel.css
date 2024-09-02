@@ -1,0 +1,49 @@
+.footerlogocarousel{text-align: center;}
+.footerlogocarousel-outer{ max-width: 1236px; margin: 0 auto; padding: 0 15px;}
+.footerlogocarousel-outer.item-count-5{max-width:1036px;}
+.footerlogocarousel-outer.item-count-4{max-width:836px;}
+.footerlogocarousel-outer.item-count-3{max-width:636px;}
+.footerlogocarousel-outer .flex-viewport{ padding:0 1px;}
+.footerlogocarousel .flexslider{ border: 0; box-shadow: none; margin: 0; border-radius:0;}
+.footerlogocarousel{ display: inline-block; width: 100%;}
+  .footerlogocarousel.withbg {
+    background: #fff; }
+  .footerlogocarousel .flexslider .slides > li a{ display: block;}
+  .footerlogocarousel.withborder .flexslider .slides > li {
+    border-right: 1px solid #ccc;}
+    .footerlogocarousel.withborder .flexslider .slides > li:first-child {
+      border-left: 1px solid #ccc; }
+      .footerlogocarousel.withborder .flexslider .slides > li:last-child {
+        border-right: 1px solid #ccc; }
+.footerlogocarousel .flex-direction-nav a{ background: #ccc; text-align: center; height: 35px; line-height: 36px; font-size: 0; border-radius: 50%; width: 35px;}
+.footerScrollbar .flex-direction-nav a:before {font-size: 20px; color: #fff; text-shadow: none;}
+.footerlogocarousel .flex-direction-nav a.flex-prev{ left:0;}
+.footerlogocarousel .flex-direction-nav a.flex-next{ right:0;}
+.footerlogocarousel .flexslider .slides > li > div.caption{ padding: 7px 0; font-size: 1.2em;}
+@media screen and (max-width: 1236px) {
+  .footerlogocarousel-outer{ max-width: 1036px;}
+}
+@media screen and (max-width: 1036px) {
+  .footerlogocarousel-outer,
+  .footerlogocarousel-outer.item-count-5{ max-width: 836px;}
+}
+@media screen and (max-width: 836px) {
+  .footerlogocarousel-outer,
+  .footerlogocarousel-outer.item-count-4{ max-width: 636px;}
+}
+@media screen and (max-width: 800px) {
+  .footerlogocarousel.withborder .flexslider .slides > li{ width: auto !important;}
+}
+@media screen and (max-width: 767px) {
+  .footerlogocarousel-outer,
+  .footerlogocarousel-outer.item-count-3,
+  .footerlogocarousel-outer.item-count-4,
+  .footerlogocarousel-outer.item-count-5{ max-width: 436px;}
+}
+@media screen and (max-width: 479px) {
+  .footerlogocarousel-outer,
+  .footerlogocarousel-outer.item-count-3,
+  .footerlogocarousel-outer.item-count-4,
+  .footerlogocarousel-outer.item-count-5{ max-width: none;}
+  .footerlogocarousel-outer .flex-viewport{ padding:0 !important;}
+}

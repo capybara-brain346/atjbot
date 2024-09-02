@@ -22,6 +22,13 @@
 :where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
 :root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
 </style>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" href="/frontend/doj_frontend/styles/base.css">
+<script src="/frontend/doj_frontend/scripts/script.js"></script>
+<link rel="stylesheet" href="styles/chatbot.css">
+<link rel="stylesheet" id="chatbot-css" href="./styles/styles.css">
 <link rel="stylesheet" id="extra-feature-css-css" href="./styles/extra.features.css" media="all">
 <link rel="stylesheet" id="contact-form-7-css" href="./styles/styles.css" media="all">
 <link rel="stylesheet" id="parichay-login-css-css" href="./styles/login.css" media="all">
@@ -96,7 +103,90 @@ var S3WaaSAccessibilityParams = {"blogInfoName":"Department of Justice","default
         let ajaxurl = ajax_url = ajaxUrl = AJAX_URL = AJAXURL = "https://doj.gov.in/wp-admin/admin-ajax.php";
     </script>
 <style type="text/css">.fancybox-margin{margin-right:17px;}</style><script charset="utf-8" src="./scripts/timeline.16b53cc33aaa562f8f41a495bf720289.js"></script></head>
+
+
+    <!--body start-->
 <body class="home page-template-default page page-id-11468 lang-en style-1 home-doj wpb-js-composer js-comp-ver-6.11.0 vc_responsive" style="font-size: 14px;">
+    <div class="fixed bottom-8 right-8 z-50">
+        <div class="chatbox bg-gray-100 h-[450px] w-[350px] shadow-lg rounded-t-2xl transition-opacity duration-500 ease-in-out opacity-0 invisible" id="chatbox">
+            <div class="bg-gradient-to-r from-purple-800 to-purple-500 flex items-center justify-center p-4 rounded-t-2xl shadow-md">
+                <h2 class="text-white">Chat Support</h2>
+            </div>
+            <div id="messagesContainer" class="flex-1 p-5 flex flex-col-reverse overflow-auto">
+                <!-- Messages will be dynamically added here -->
+            </div>
+            <div class="bg-gradient-to-r from-purple-800 to-purple-500 p-5 flex items-center justify-between rounded-b-lg shadow-md">
+                <input type="text" id="messageInput" class="w-4/5 border-none p-2.5 rounded-full" placeholder="Type a message">
+                <button class="p-1.5 bg-transparent border-none cursor-pointer" id="sendButton">Send</button>
+            </div>
+        </div>
+        <button class="p-2.5 bg-white border-none rounded-full shadow-lg cursor-pointer" id="chatboxButton">Chat</button>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Toggle chatbot visibility
+            $('#chatboxButton').on('click', function () {
+                $('#chatbox').toggleClass('opacity-0 opacity-100 invisible');
+    
+                // Focus on the input field when the chatbot is opened
+                if (!$('#chatbox').hasClass('invisible')) {
+                    $("#messageInput").focus();
+                }
+            });
+    
+            // Send message to server
+            $('#sendButton').on('click', function () {
+                const message = $('#messageInput').val();
+                if (!message) {
+                    return; // Do nothing if the input is empty
+                }
+    
+                // Append the user's message to the chat
+                $("#messagesContainer").prepend(`<div class='bg-gray-200 p-2.5 max-w-[70%] mt-2 rounded-lg'>${message}</div>`);
+                $('#messageInput').val(''); // Clear input field
+    
+                // Send the message to the server
+                $.ajax({
+                    url: "http://127.0.0.1:5000/predict",  // Replace with your actual Flask API endpoint
+                    type: "POST",
+                    contentType: "application/json",
+                    data: JSON.stringify({ message: message }),
+                    success: function (response) {
+                        console.log("Response received:", response);
+    
+                        // Extract the answer and links from the response
+                        const answer = response.answer;
+                        const links = response.links;
+    
+                        // Append the answer to the chat
+                        $("#messagesContainer").prepend(`<div class='bg-purple-800 text-white p-2.5 max-w-[70%] mt-2 ml-auto rounded-lg'>${answer}</div>`);
+    
+                        // If there are links, append them to the chat as well
+                        if (Array.isArray(links) && links.length > 0) {
+                            links.forEach(link => {
+                                $("#messagesContainer").prepend(`<div class='bg-purple-800 text-white p-2.5 max-w-[70%] mt-2 ml-auto rounded-lg'><a href="${link.url}" target="_blank">${link.text}</a></div>`);
+                            });
+                        }
+                    },
+                    error: function (jqXHR, textStatus, errorThrown) {
+                        console.error("Error occurred:", textStatus, errorThrown);
+                        // Handle error by appending an error message to the chat
+                        $("#messagesContainer").prepend("<div class='bg-purple-800 text-white p-2.5 max-w-[70%] mt-2 ml-auto rounded-lg'>An error occurred while processing your request.</div>");
+                    }
+                });
+            });
+        });
+    </script>
+    
+
+
+      
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 <header id="mainHeader">
     <!--topBar start-->
     <div id="topBar">
