@@ -6,6 +6,9 @@ from langchain.prompts import ChatPromptTemplate
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from dotenv import load_dotenv
+from flask_cors import CORS
+
+# Configure CORS to allow only specific origins
 
 load_dotenv()
 
@@ -17,6 +20,7 @@ app = Flask(
 
 logging.basicConfig(level=logging.INFO)
 
+CORS(app, resources={r"/*": {"origins": "*"}})
 
 def query_rag(query_text: str, prompt_template: str) -> str:
     try:
