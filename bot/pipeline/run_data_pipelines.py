@@ -1,6 +1,7 @@
 from get_links import GetLinks
 from get_pending_cases import GetChipStats, GetPendingCases
 from get_tables import GetTables
+from get_whats_new import GetWhatsNew
 import argparse
 
 
@@ -18,6 +19,7 @@ def main() -> None:
         "chips": GetChipStats,
         "njdg": GetPendingCases,
         "tables": GetTables,
+        "whatsnew": GetWhatsNew,
     }
 
     pipeline_dict[args.pipeline](args.url).run_pipeline()
