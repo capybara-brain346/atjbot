@@ -89,8 +89,8 @@ def clear_database(database_path: str):
 
 
 def main():
-    DATA_DIRECTORY = "./data"
-    CHROMA_PATH = "../chroma"
+    DATA_DIRECTORY = "./bot/data/text/access_to_justice"
+    CHROMA_PATH = "chroma"
 
     documents = load_documents(data_path=DATA_DIRECTORY)
     chunks = chunk_documents(documents)

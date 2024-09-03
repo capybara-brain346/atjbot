@@ -14,7 +14,7 @@ load_dotenv()
 
 def query_rag(query_text: str, prompt_template: str) -> str:
     db = Chroma(
-        persist_directory="../chroma",
+        persist_directory="chroma",
         embedding_function=GoogleGenerativeAIEmbeddings(model="models/embedding-001"),
     )
 
