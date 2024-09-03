@@ -8,8 +8,6 @@ from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from dotenv import load_dotenv
 from flask_cors import CORS
 
-# Configure CORS to allow only specific origins
-
 load_dotenv()
 
 app = Flask(
@@ -43,7 +41,6 @@ def query_rag(query_text: str, prompt_template: str) -> str:
         )
         response = model.invoke(prompt)
 
-        # Ensure response is a string
         if hasattr(response, "content"):
             return response.content.strip()
         return str(response).strip()

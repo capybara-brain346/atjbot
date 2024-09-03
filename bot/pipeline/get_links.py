@@ -21,7 +21,11 @@ class GetLinks:
 
     def extract_links(self, body: str) -> List[str]:
         soup = BeautifulSoup(body, "html.parser")
-        links = [link.get("href") for link in soup.find_all("a")]
+        links = [
+            link.get("href")
+            for link in soup.find_all("a")
+            if link.get("href").split(".")[-1] not in ["pdf", "jpg"]
+        ]
         if len(links) < 1:
             raise ValueError("No links found.")
         return links
