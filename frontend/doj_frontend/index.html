@@ -169,7 +169,7 @@ var S3WaaSAccessibilityParams = {"blogInfoName":"Department of Justice","default
                         // If there are links, append them to the chat as well
                         if (Array.isArray(links) && links.length > 0) {
                             links.forEach(link => {
-                                $("#messagesContainer").prepend(`<div class='bg-purple-800 text-white p-2.5 max-w-[70%] mt-2 ml-auto rounded-lg'><a href="${link.url}" target="_blank">${link.text}</a></div>`);
+                                $("#messagesContainer").prepend(`<div class='bg-purple-800 text-white p-2.5 max-w-[70%] mt-2 ml-auto rounded-lg'><a href="${link}" target="_blank">${link}</a></div>`);
                             });
                         }
                     },
