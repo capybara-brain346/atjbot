@@ -29,16 +29,18 @@ def predict():
 
         message = data["message"]
         PROMPT_TEMPLATE = """
-        Answer the question based only on the following context:
+        Here is the context provided:
 
         {context}
 
         ---
 
-        Answer the question based on the above context in 50 to 80 words. If the question is not related to legal content respond with I cannot help with this query. You can be a little interactive by replying to simple prompts like greetings and goodbyes: {question}
+        Answer the following question based on the above context. If the question is a greeting, farewell, or expression of thanks, respond warmly and personally without referencing the context. For queries unrelated to legal content, reply with: "I’m sorry, but I can’t assist with that." Please ensure your response is descriptive and informative based on the context.
+
+        Question: {question}
         """
         response = query_rag(query_text=message, prompt_template=PROMPT_TEMPLATE)
-        return jsonify({"answer": response, "links": get_links(message)})
+        return jsonify({"answer": response, "links": ["https://doj.gov.in/"]})
 
     except Exception as e:
         logging.error(f"Error in /predict: {e}")

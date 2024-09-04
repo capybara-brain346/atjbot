@@ -37,16 +37,17 @@ def query_rag(query_text: str, prompt_template: str) -> str:
 
 def main() -> None:
     PROMPT_TEMPLATE = """
-    Below is context:
+    Here is the context provided:
 
     {context}
 
     ---
 
-    Answer the question based on the above context in 50 to 80 words. 
-    If the question is a greeting or goodbye or a thank you, be friendly and you can respond with a friendly greeting while ignoring the context.
-    If the question is not related to legal content respond with I cannot help with this query. : {question}
+    Answer the following question based on the above context. If the question is a greeting, farewell, or expression of thanks, respond warmly and personally without referencing the context. For queries unrelated to legal content, reply with: "I’m sorry, but I can’t assist with that." Please ensure your response is descriptive and informative based on the context.
+
+    Question: {question}
     """
+
     query_text = "Thank you!"
     print(f"Your question: {query_text}")
 
