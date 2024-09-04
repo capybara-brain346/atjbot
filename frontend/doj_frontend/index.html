@@ -128,59 +128,128 @@ var S3WaaSAccessibilityParams = {"blogInfoName":"Department of Justice","default
     
     
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            // Toggle chatbot visibility
-            $('#chatboxButton').on('click', function () {
-                const chatbox = $('#chatbox');
-                chatbox.toggleClass('opacity-0 opacity-100 invisible');
-                
-                // Debugging output
-                console.log('Chatbox visibility toggled:', chatbox.hasClass('invisible'));
+    <script>$(document).ready(function () {
+        // Toggle chatbot visibility
+        $('#chatboxButton').on('click', function () {
+            const chatbox = $('#chatbox');
+            chatbox.toggleClass('opacity-0 opacity-100 invisible');
+        });
+    
+        // Predefined suggestions
+        const suggestions = [
+            'What is tele law?',
+            'What is Department of Justice?'
+        ];
+    
+        // Add suggestions to the DOM
+        const addSuggestions = () => {
+            const suggestionsContainer = $('#messagesContainer');
+            suggestionsContainer.empty(); // Clear existing suggestions
+            suggestions.forEach(suggestion => {
+                suggestionsContainer.prepend(`
+                    <div class="text-center mt-2">
+                        <button class="p-2 bg-blue-500 text-white rounded-full hover:bg-blue-600 suggestion-button" data-suggestion="${suggestion}">
+                            ${suggestion}
+                        </button>
+                    </div>
+                `);
             });
+        };
     
-            // Send message to server
-            $('#sendButton').on('click', function () {
-                const message = $('#messageInput').val();
-                if (!message) {
-                    return; // Do nothing if the input is empty
-                }
+        // Show suggestions when chatbox is opened
+        $('#chatboxButton').on('click', function () {
+            addSuggestions(); // Add suggestions each time chatbox is opened
+        });
     
-                // Append the user's message to the chat
-                $("#messagesContainer").prepend(`<div class='bg-gray-200 p-2.5 max-w-[70%] mt-2 rounded-lg'>${message}</div>`);
-                $('#messageInput').val(''); // Clear input field
+        // Handle suggestion click
+        $('#messagesContainer').on('click', '.suggestion-button', function () {
+            const suggestion = $(this).data('suggestion');
+            sendMessage(suggestion);
+        });
     
-                // Send the message to the server
-                $.ajax({
-                    url: "http://127.0.0.1:5000/predict",  // Replace with your actual Flask API endpoint
-                    type: "POST",
-                    contentType: "application/json",
-                    data: JSON.stringify({ message: message }),
-                    success: function (response) {
-                        console.log("Response received:", response);
+        // Send message to server
+        $('#sendButton').on('click', function () {
+            const message = $('#messageInput').val();
+            if (!message) {
+                return; // Do nothing if the input is empty
+            }
     
-                        // Extract the answer and links from the response
-                        const answer = response.answer;
-                        const links = response.links;
+            // Append the user's message to the chat
+            $("#messagesContainer").prepend(`<div class='bg-gray-200 p-2.5 max-w-[70%] mt-2 rounded-lg'>${message}</div>`);
+            $('#messageInput').val(''); // Clear input field
     
-                        // Append the answer to the chat
-                        $("#messagesContainer").prepend(`<div class='bg-purple-800 text-white p-2.5 max-w-[70%] mt-2 ml-auto rounded-lg'>${answer}</div>`);
+            // Send the message to the server
+            $.ajax({
+                url: "http://127.0.0.1:5000/predict",  // Replace with your actual Flask API endpoint
+                type: "POST",
+                contentType: "application/json",
+                data: JSON.stringify({ message: message }),
+                success: function (response) {
+                    console.log("Response received:", response);
     
-                        // If there are links, append them to the chat as well
-                        if (Array.isArray(links) && links.length > 0) {
-                            links.forEach(link => {
-                                $("#messagesContainer").prepend(`<div class='bg-purple-800 text-white p-2.5 max-w-[70%] mt-2 ml-auto rounded-lg'><a href="${link}" target="_blank">${link}</a></div>`);
-                            });
-                        }
-                    },
-                    error: function (jqXHR, textStatus, errorThrown) {
-                        console.error("Error occurred:", textStatus, errorThrown);
-                        // Handle error by appending an error message to the chat
-                        $("#messagesContainer").prepend("<div class='bg-purple-800 text-white p-2.5 max-w-[70%] mt-2 ml-auto rounded-lg'>An error occurred while processing your request.</div>");
+                    // Extract the answer and links from the response
+                    const answer = response.answer;
+                    const links = response.links;
+    
+                    // Append the answer to the chat
+                    $("#messagesContainer").prepend(`<div class='bg-purple-800 text-white p-2.5 max-w-[70%] mt-2 ml-auto rounded-lg'>${answer}</div>`);
+    
+                    // If there are links, append them to the chat as well
+                    if (Array.isArray(links) && links.length > 0) {
+                        links.forEach(link => {
+                            $("#messagesContainer").prepend(`<div class='bg-purple-800 text-white p-2.5 max-w-[70%] mt-2 ml-auto rounded-lg'><a href="${link}" target="_blank">${link}</a></div>`);
+                        });
                     }
-                });
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    console.error("Error occurred:", textStatus, errorThrown);
+                    // Handle error by appending an error message to the chat
+                    $("#messagesContainer").prepend("<div class='bg-purple-800 text-white p-2.5 max-w-[70%] mt-2 ml-auto rounded-lg'>An error occurred while processing your request.</div>");
+                }
             });
         });
+    
+        function sendMessage(message) {
+            if (!message) return;
+    
+            // Append the user's message to the chat
+            $("#messagesContainer").prepend(`<div class='bg-gray-200 p-2.5 max-w-[70%] mt-2 rounded-lg'>${message}</div>`);
+    
+            // Hide suggestions after a message is sent
+            $('#suggestionsContainer').empty();
+    
+            // Send the message to the server
+            $.ajax({
+                url: "http://127.0.0.1:5000/predict",  // Replace with your actual Flask API endpoint
+                type: "POST",
+                contentType: "application/json",
+                data: JSON.stringify({ message: message }),
+                success: function (response) {
+                    console.log("Response received:", response);
+    
+                    // Extract the answer and links from the response
+                    const answer = response.answer;
+                    const links = response.links;
+    
+                    // Append the answer to the chat
+                    $("#messagesContainer").prepend(`<div class='bg-purple-800 text-white p-2.5 max-w-[70%] mt-2 ml-auto rounded-lg'>${answer}</div>`);
+    
+                    // If there are links, append them to the chat as well
+                    if (Array.isArray(links) && links.length > 0) {
+                        links.forEach(link => {
+                            $("#messagesContainer").prepend(`<div class='bg-purple-800 text-white p-2.5 max-w-[70%] mt-2 ml-auto rounded-lg'><a href="${link}" target="_blank">${link}</a></div>`);
+                        });
+                    }
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    console.error("Error occurred:", textStatus, errorThrown);
+                    // Handle error by appending an error message to the chat
+                    $("#messagesContainer").prepend("<div class='bg-purple-800 text-white p-2.5 max-w-[70%] mt-2 ml-auto rounded-lg'>An error occurred while processing your request.</div>");
+                }
+            });
+        }
+    });
+    
     </script>
     
 
