@@ -1,4 +1,4 @@
-Age,Number
+Age(How old the cases are),Number(Number of cases) 
 0 to 1 years,1053462
 1 to 3 years,723369
 3 to 5 years,583996

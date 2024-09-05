@@ -4,18 +4,17 @@ import shutil
 from typing import List
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_chroma import Chroma
-
-# from langchain_community.embeddings import OllamaEmbeddings
+from langchain_community.document_loaders import PyPDFDirectoryLoader
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_community.document_loaders import (
     DirectoryLoader,
     TextLoader,
-    PyPDFLoader,
     CSVLoader,
 )
 from langchain.schema.document import Document
 import argparse
 from dotenv import load_dotenv
+# from langchain_community.embeddings import OllamaEmbeddings
 
 load_dotenv()
 
@@ -35,11 +34,11 @@ class RAGPipeline:
                 loader_cls=TextLoader,
                 loader_kwargs=text_loader_kwargs,
             ),
-            "pdf": DirectoryLoader(
+            "pdf": PyPDFDirectoryLoader(
                 self.data_path,
                 glob="./*.pdf",
-                loader_cls=PyPDFLoader,
             ),
+            "scanned": utils.load_and_process_scanned_pdfs(self.data_path),
             "csv": DirectoryLoader(
                 self.data_path,
                 glob="./*.csv",
@@ -48,8 +47,10 @@ class RAGPipeline:
             ),
         }
 
-        if self.document_type == "pdf":
-            documents = utils.load_and_process_scanned_pdfs(self.data_path)
+        if self.document_type == "scanned":
+            documents = loader[
+                self.document_type
+            ]  # utils.load_and_process_scanned_pdfs(self.data_path)
             return documents
 
         documents = loader[self.document_type].load()

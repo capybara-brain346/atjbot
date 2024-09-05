@@ -1,11 +1,11 @@
-Category,Number
-Write Petition,1592809
-Second Appeal,279899
-First Appeal,469023
-Appeal,387945
-Case/Petition,344648
-Revision,81233
-Reference,3391
-Suit,31516
-Review,21579
-Application,450385
+Type(Type of case; civil or criminal),Category(Category of the cases),Number(Number of cases)
+Civil,Write Petition,1592809
+Civil,Second Appeal,279899
+Civil,First Appeal,469023
+Civil,Appeal,387945
+Civil,Case/Petition,344648
+Civil,Revision,81233
+Civil,Reference,3391
+Civil,Suit,31516
+Civil,Review,21579
+Civil,Application,450385

@@ -1,9 +1,9 @@
 import os
 from typing import List
-from langchain.schema.document import Document
-from PIL import Image
-import fitz
+import fitz  # PyMuPDF
 import pytesseract
+from PIL import Image
+from langchain.docstore.document import Document
 
 
 def ocr_image(image_path: str) -> str:
