@@ -64,7 +64,16 @@ const ChatApp = () => {
                   msg.isUser ? 'bg-gray-200' : 'bg-purple-800 text-white'
                 } ${msg.isLink ? 'underline cursor-pointer' : ''}`}
               >
-                {msg.isLink ? <a href={msg.text} target="_blank" rel="noopener noreferrer">{msg.text}</a> : msg.text}
+                {msg.isLink ? <a href={msg.text} target="_blank" rel="noopener noreferrer" 
+                style={{
+                  display: 'block',
+                  wordBreak: 'break-word',
+                  overflowWrap: 'break-word',
+                  color: 'inherit'
+
+                }}
+                >{msg.text}</a> : msg.text
+                }
               </div>
             ))}
             {/* Suggestions as part of message area */}
