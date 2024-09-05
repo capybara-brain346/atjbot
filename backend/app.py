@@ -1,12 +1,21 @@
 from flask import Flask, render_template, jsonify, request
 import logging
 from flask_cors import CORS
+from flask_limiter import Limiter
+from flask_limiter.util import get_remote_address
 from utils import get_links, query_rag
 
 app = Flask(
     __name__,
     template_folder="../frontend/templates",
     static_folder="../frontend/static",
+)
+
+limiter = Limiter(
+    app=app,
+    key_func=get_remote_address,
+    default_limits=["200 per day", "50 per hour"],
+    storage_uri="memory://",
 )
 
 logging.basicConfig(level=logging.INFO)
@@ -20,6 +29,7 @@ def index():
 
 
 @app.post("/predict")
+@limiter.limit("10 per minute")
 def predict():
     try:
         data = request.json
