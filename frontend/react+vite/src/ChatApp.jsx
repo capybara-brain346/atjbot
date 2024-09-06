@@ -61,19 +61,21 @@ const ChatApp = () => {
               <div
                 key={index}
                 className={`p-2.5 max-w-[70%] mt-2 rounded-lg ${
-                  msg.isUser ? 'bg-gray-200' : 'bg-purple-800 text-white'
+                  msg.isUser ? 'bg-gray-200 self-end text-right' : 'bg-purple-800 text-white'
                 } ${msg.isLink ? 'underline cursor-pointer' : ''}`}
               >
-                {msg.isLink ? <a href={msg.text} target="_blank" rel="noopener noreferrer" 
-                style={{
-                  display: 'block',
-                  wordBreak: 'break-word',
-                  overflowWrap: 'break-word',
-                  color: 'inherit'
-
-                }}
-                >{msg.text}</a> : msg.text
-                }
+                {msg.isLink ? (
+                  <a href={msg.text} target="_blank" rel="noopener noreferrer"
+                    style={{
+                      display: 'block',
+                      wordBreak: 'break-word',
+                      overflowWrap: 'break-word',
+                      color: 'inherit'
+                    }}
+                  >
+                    {msg.text}
+                  </a>
+                ) : msg.text}
               </div>
             ))}
             {/* Suggestions as part of message area */}
