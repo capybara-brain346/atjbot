@@ -40,7 +40,18 @@ def extract_keywords(prompt: str) -> List[Tuple]:
     return fdist.most_common()
 
 
-def query_rag(query_text: str, prompt_template: str) -> str:
+def query_rag(query_text: str) -> str:
+    PROMPT_TEMPLATE = """
+    Here is the context provided:
+
+    {context}
+
+    ---
+
+    Answer the following question based on the above context. If the question is a greeting, farewell, or expression of thanks, respond warmly and personally without referencing the context. For queries unrelated to legal content, reply with: "I’m sorry, but I can’t assist with that." Please ensure your response is descriptive and informative based on the context.
+
+    Question: {question}
+    """
     try:
         db = Chroma(
             persist_directory="chroma",
@@ -52,7 +63,7 @@ def query_rag(query_text: str, prompt_template: str) -> str:
         results = db.similarity_search_with_score(query_text, k=5)
         context_text = "\n\n---\n\n".join([doc.page_content for doc, _score in results])
 
-        prompt_template = ChatPromptTemplate.from_template(prompt_template)
+        prompt_template = ChatPromptTemplate.from_template(PROMPT_TEMPLATE)
         prompt = prompt_template.format(context=context_text, question=query_text)
 
         model = ChatGoogleGenerativeAI(

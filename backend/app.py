@@ -38,18 +38,8 @@ def predict():
             return jsonify({"answer": "No message provided"})
 
         message = data["message"]
-        PROMPT_TEMPLATE = """
-        Here is the context provided:
 
-        {context}
-
-        ---
-
-        Answer the following question based on the above context. If the question is a greeting, farewell, or expression of thanks, respond warmly and personally without referencing the context. For queries unrelated to legal content, reply with: "I’m sorry, but I can’t assist with that." Please ensure your response is descriptive and informative based on the context.
-
-        Question: {question}
-        """
-        response = query_rag(query_text=message, prompt_template=PROMPT_TEMPLATE)
+        response = query_rag(query_text=message)
         return jsonify({"answer": response, "links": get_links(message)})
 
     except Exception as e:
