@@ -23,6 +23,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+        cache-dependency-path: './frontend/react+vite/package-lock.json'
         
     - name: Install dependencies
       run: npm install
