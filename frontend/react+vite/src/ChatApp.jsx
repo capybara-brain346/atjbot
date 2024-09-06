@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-
 import './index.css';
 
 const ChatApp = () => {
@@ -8,6 +7,9 @@ const ChatApp = () => {
   const [message, setMessage] = useState('');
   const [messages, setMessages] = useState([]);
   const [showSuggestions, setShowSuggestions] = useState(true);
+  const [supportedLanguages] = useState(['Hindi','English', 'Marathi', 'Tamil', 'Telugu', 'Bengali', 'Gujarati', 'Kannada', 'Punjabi', 'Malayalam', 'Odia']);
+  const [selectedLanguage, setSelectedLanguage] = useState('');
+  const [isLanguageSelected, setIsLanguageSelected] = useState(false);
 
   const suggestions = [
     'What is tele law?',
@@ -18,6 +20,15 @@ const ChatApp = () => {
     setIsVisible(!isVisible);
   };
 
+  const handleLanguageSelection = (language) => {
+    if (supportedLanguages.includes(language)) {
+      setSelectedLanguage(language);
+      setIsLanguageSelected(true);
+    } else {
+      alert('Please select a valid language from the list.');
+    }
+  };
+
   const sendMessage = (text) => {
     const msg = text || message;
     if (!msg) return;
@@ -25,9 +36,12 @@ const ChatApp = () => {
     const newMessage = { text: msg, isUser: true };
     setMessages([newMessage, ...messages]);
     setMessage('');
-    setShowSuggestions(false); // Hide suggestions after a message is sent
+    setShowSuggestions(false);
 
-    axios.post('http://127.0.0.1:5000/predict', { message: msg })
+    // Append language preference to the message
+    const messageWithLanguage = `${msg} explain in ${selectedLanguage}`;
+
+    axios.post('http://127.0.0.1:5000/predict', { message: messageWithLanguage })
       .then(response => {
         const answer = response.data.answer;
         const links = response.data.links;
@@ -57,40 +71,57 @@ const ChatApp = () => {
             <h2 className="text-white">Chat Support</h2>
           </div>
           <div id="messagesContainer" className="flex-1 p-5 flex flex-col-reverse overflow-auto">
-            {messages.map((msg, index) => (
-              <div
-                key={index}
-                className={`p-2.5 max-w-[70%] mt-2 rounded-lg ${
-                  msg.isUser ? 'bg-gray-200 self-end text-right' : 'bg-purple-800 text-white'
-                } ${msg.isLink ? 'underline cursor-pointer' : ''}`}
-              >
-                {msg.isLink ? (
-                  <a href={msg.text} target="_blank" rel="noopener noreferrer"
-                    style={{
-                      display: 'block',
-                      wordBreak: 'break-word',
-                      overflowWrap: 'break-word',
-                      color: 'inherit'
-                    }}
-                  >
-                    {msg.text}
-                  </a>
-                ) : msg.text}
+            {!isLanguageSelected ? (
+              <div className="flex flex-col items-center justify-center p-4">
+                <h3>Please select your preferred language:</h3>
+                <select
+                  onChange={(e) => handleLanguageSelection(e.target.value)}
+                  className="p-2 border border-gray-300 rounded-md"
+                  defaultValue="" // Ensures that the user has to make a selection
+                >
+                  <option value="">Select Language</option>
+                  {supportedLanguages.map((lang, index) => (
+                    <option key={index} value={lang}>{lang}</option>
+                  ))}
+                </select>
               </div>
-            ))}
-            {/* Suggestions as part of message area */}
-            {showSuggestions && (
-              <div className="flex flex-col items-center justify-center gap-2 mt-4">
-                {suggestions.map((suggestion, index) => (
-                  <button
+            ) : (
+              <>
+                {messages.map((msg, index) => (
+                  <div
                     key={index}
-                    className="p-3 bg-blue-500 text-white rounded-full hover:bg-blue-600 w-3/4 text-center"
-                    onClick={() => handleSuggestionClick(suggestion)}
+                    className={`p-2.5 max-w-[70%] mt-2 rounded-lg ${
+                      msg.isUser ? 'bg-gray-200 self-end text-right' : 'bg-purple-800 text-white'
+                    } ${msg.isLink ? 'underline cursor-pointer' : ''}`}
                   >
-                    {suggestion}
-                  </button>
+                    {msg.isLink ? (
+                      <a href={msg.text} target="_blank" rel="noopener noreferrer"
+                        style={{
+                          display: 'block',
+                          wordBreak: 'break-word',
+                          overflowWrap: 'break-word',
+                          color: 'inherit'
+                        }}
+                      >
+                        {msg.text}
+                      </a>
+                    ) : msg.text}
+                  </div>
                 ))}
-              </div>
+                {showSuggestions && (
+                  <div className="flex flex-col items-center justify-center gap-2 mt-4">
+                    {suggestions.map((suggestion, index) => (
+                      <button
+                        key={index}
+                        className="p-3 bg-blue-500 text-white rounded-full hover:bg-blue-600 w-3/4 text-center"
+                        onClick={() => handleSuggestionClick(suggestion)}
+                      >
+                        {suggestion}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </>
             )}
           </div>
           <div className="bg-gradient-to-r from-yellow-800 to-yellow-500 p-5 flex items-center justify-between rounded-b-lg shadow-md">
@@ -100,8 +131,13 @@ const ChatApp = () => {
               placeholder="Type a message"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
+              disabled={!isLanguageSelected} // Disable input until language is selected
             />
-            <button className="p-1.5 bg-transparent border-none cursor-pointer" onClick={() => sendMessage()}>
+            <button
+              className="p-1.5 bg-transparent border-none cursor-pointer"
+              onClick={() => sendMessage()}
+              disabled={!isLanguageSelected} // Disable button until language is selected
+            >
               Send
             </button>
           </div>
