@@ -15,7 +15,6 @@ from nltk import pos_tag
 
 load_dotenv()
 
-
 def extract_keywords(prompt: str) -> List[Tuple]:
     nltk.download("punkt", quiet=True)
     nltk.download("punkt_tab", quiet=True)
