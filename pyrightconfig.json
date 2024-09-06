@@ -1,0 +1,10 @@
+{
+  "venvPath": "./",
+  "venv": "./venv",
+
+  "typeCheckingMode": "off",
+  "reportOptionalMemberAccess": false,
+  "reportOptionalSubscript": false,
+  "reportOptionalCall": false,
+  "reportGeneralTypeIssues": false
+}
