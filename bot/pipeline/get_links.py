@@ -45,6 +45,8 @@ class GetLinks:
             link_dataframe["Links"].apply(lambda x: bool(url_pattern.match(x)))
         ]
 
+        links_filtered.drop_duplicates(inplace=True)
+
         print(links_filtered)
 
         try:

@@ -7,7 +7,6 @@ from langchain.prompts import ChatPromptTemplate
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from dotenv import load_dotenv
-import json
 import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
@@ -93,7 +92,7 @@ def query_rag(query_text: str) -> Tuple[str, List[str]] | str:
 
         context_text = "\n\n---\n\n".join([doc.page_content for doc, _score in results])
         context_links = extract_urls(
-            list(set([doc.page_content for doc, _score in hyperlink_results]))
+            [doc.page_content for doc, _score in hyperlink_results]
         )
         print(context_links)
         prompt_template = ChatPromptTemplate.from_template(PROMPT_TEMPLATE)

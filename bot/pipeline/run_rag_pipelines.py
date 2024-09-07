@@ -135,7 +135,7 @@ def main() -> None:
 
     rag_pipeline = RAGPipeline(
         data_path=args.directory,
-        database_path="chroma",  # chroma_links
+        database_path="chroma_links",  # chroma_links
         document_type=args.document_type,
     )
 
