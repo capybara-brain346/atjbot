@@ -1,5 +1,6 @@
 import os
 import logging
+import re
 from typing import List, Tuple
 from langchain_chroma import Chroma
 from langchain.prompts import ChatPromptTemplate
@@ -15,7 +16,8 @@ from nltk import pos_tag
 
 load_dotenv()
 
-def extract_keywords(prompt: str) -> List[Tuple]:
+
+def extract_keywords(prompt: str) -> str:
     nltk.download("punkt", quiet=True)
     nltk.download("punkt_tab", quiet=True)
     nltk.download("stopwords", quiet=True)
@@ -36,10 +38,29 @@ def extract_keywords(prompt: str) -> List[Tuple]:
     ]
     fdist = FreqDist(keywords)
 
-    return fdist.most_common()
+    keywords = fdist.most_common()
+    keyword_joint = " ".join([keyword for keyword, idx in keywords]).title()
+
+    return keyword_joint
 
 
-def query_rag(query_text: str) -> str:
+def extract_urls(url_list: List[str]) -> List[str]:
+    url_pattern = re.compile(
+        r"http[s]?://"
+        r"(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|"
+        r"(?:%[0-9a-fA-F][0-9a-fA-F]))+"
+    )
+
+    extracted_urls = []
+    for text in url_list:
+        match = url_pattern.search(text)
+        if match:
+            extracted_urls.append(match.group(0))
+
+    return extracted_urls
+
+
+def query_rag(query_text: str) -> Tuple[str, List[str]] | str:
     PROMPT_TEMPLATE = """
     Here is the context provided:
 
@@ -58,10 +79,23 @@ def query_rag(query_text: str) -> str:
                 model="models/embedding-001"
             ),
         )
+        db_links = Chroma(
+            persist_directory="chroma_links",
+            embedding_function=GoogleGenerativeAIEmbeddings(
+                model="models/embedding-001"
+            ),
+        )
 
         results = db.similarity_search_with_score(query_text, k=5)
-        context_text = "\n\n---\n\n".join([doc.page_content for doc, _score in results])
+        hyperlink_results = db_links.similarity_search_with_score(
+            extract_keywords(query_text), k=5
+        )
 
+        context_text = "\n\n---\n\n".join([doc.page_content for doc, _score in results])
+        context_links = extract_urls(
+            list(set([doc.page_content for doc, _score in hyperlink_results]))
+        )
+        print(context_links)
         prompt_template = ChatPromptTemplate.from_template(PROMPT_TEMPLATE)
         prompt = prompt_template.format(context=context_text, question=query_text)
 
@@ -71,29 +105,9 @@ def query_rag(query_text: str) -> str:
         response = model.invoke(prompt)
 
         if hasattr(response, "content"):
-            return response.content.strip()
-        return str(response).strip()
+            return response.content.strip(), context_links
+        return str(response).strip(), context_links
 
     except Exception as e:
         logging.error(f"Error in query_rag: {e}")
         return "An error occurred while processing the query."
-
-
-def get_links(prompt) -> List[str]:
-    keywords = extract_keywords(prompt)
-    keyword_joint = " ".join([keyword for keyword, idx in keywords]).title()
-
-    json_file_path = r"bot\data\links\links.json"
-
-    with open(json_file_path, "r") as j:
-        contents = json.loads(j.read())
-
-    dict_content = dict(contents)
-    dict_keys = dict_content.keys()
-
-    links = []
-    for i in dict_keys:
-        if keyword_joint in i:
-            links.append(dict_content[i])
-
-    return links

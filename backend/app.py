@@ -3,7 +3,7 @@ import logging
 from flask_cors import CORS
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
-from utils import get_links, query_rag
+from utils import query_rag
 
 app = Flask(
     __name__,
@@ -20,7 +20,11 @@ limiter = Limiter(
 
 logging.basicConfig(level=logging.INFO)
 
-CORS(app, resources={r"/*": {"origins": "*"}})
+
+CORS(
+    app,
+    resources={r"/*": {"origins": ["http://localhost:5173", "http://127.0.0.1:5000"]}},
+)
 
 
 @app.get("/")
@@ -39,8 +43,8 @@ def predict():
 
         message = data["message"]
 
-        response = query_rag(query_text=message)
-        return jsonify({"answer": response, "links": ["https://www.tele-law.in/"]})
+        response, response_links = query_rag(query_text=message)
+        return jsonify({"answer": response, "links": response_links})
 
     except Exception as e:
         logging.error(f"Error in /predict: {e}")
