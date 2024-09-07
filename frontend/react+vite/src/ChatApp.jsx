@@ -48,7 +48,7 @@ const ChatApp = () => {
     setShowSuggestions(false);
 
     // Append language preference to the message
-    const messageWithLanguage = `${msg} explain in ${selectedLanguage}`;
+    const messageWithLanguage = `${msg}`; // explain in ${selectedLanguage}`;
 
     axios
       .post("http://127.0.0.1:5000/predict", { message: messageWithLanguage })
