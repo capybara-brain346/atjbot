@@ -60,6 +60,9 @@ def extract_urls(url_list: List[str]) -> List[str]:
 
 
 def query_rag(query_text: str) -> Tuple[str, List[str]] | str:
+    question_content = query_text.split("|>")
+    question, language = question_content[0], question_content[-1]
+
     PROMPT_TEMPLATE = """
     Here is the context provided:
 
@@ -67,7 +70,7 @@ def query_rag(query_text: str) -> Tuple[str, List[str]] | str:
 
     ---
 
-    Answer the following question based on the above context. If the question is a greeting, farewell, or expression of thanks, respond warmly and personally without referencing the context. For queries unrelated to legal content, reply with: "I’m sorry, but I can’t assist with that." Please ensure your response is descriptive and informative based on the context.
+    Answer the following question based on the above context. If the question is a greeting, farewell, or expression of thanks, respond warmly and personally without referencing the context. For queries unrelated to legal content, reply with: "I’m sorry, but I can’t assist with that." Please ensure your response is descriptive and informative based on the context. Answer in {language}.
 
     Question: {question}
     """
@@ -96,7 +99,9 @@ def query_rag(query_text: str) -> Tuple[str, List[str]] | str:
         )
         print(context_links)
         prompt_template = ChatPromptTemplate.from_template(PROMPT_TEMPLATE)
-        prompt = prompt_template.format(context=context_text, question=query_text)
+        prompt = prompt_template.format(
+            context=context_text, question=question, language=language
+        )
 
         model = ChatGoogleGenerativeAI(
             model="gemini-1.5-flash", api_key=os.getenv("GOOGLE_API_KEY")
