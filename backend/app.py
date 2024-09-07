@@ -40,7 +40,7 @@ def predict():
         message = data["message"]
 
         response = query_rag(query_text=message)
-        return jsonify({"answer": response, "links": get_links(message)[0:1]})
+        return jsonify({"answer": response, "links": ["https://www.tele-law.in/"]})
 
     except Exception as e:
         logging.error(f"Error in /predict: {e}")
