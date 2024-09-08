@@ -86,13 +86,13 @@ const ChatApp = () => {
     <div className="max-w-lg fixed bottom-8 right-8 z-50">
       {/* Chatbox */}
       {isVisible && (
-        <div className="chatbox bg-gray-100 h-[450px] w-[350px] shadow-lg rounded-t-2xl backdrop-blur-xl transition-opacity duration-500 ease-in-out flex flex-col fixed bottom-20 right-8 z-40">
+        <div className="chatbox bg-gray-100 h-[450px] w-[350px] shadow-lg rounded-t-2xl backdrop-blur-lg backdrop-filter bg-opacity-30 flex flex-col fixed bottom-20 right-8 z-40">
           <div className="bg-yellow-500 flex items-center justify-center p-4 rounded-t-2xl shadow-md">
             <h2 className="text-3xl font-bold">Chat Support</h2>
           </div>
           <div
             id="messagesContainer"
-            className="flex-1 p-5 flex flex-col-reverse overflow-auto backdrop-blur-xl bg-white/60"
+            className="flex-1 p-5 flex flex-col-reverse overflow-auto backdrop-blur-lg bg-white/40"
           >
             {!isLanguageSelected ? (
               <div className="flex flex-col items-center justify-center p-4 flex-grow">
@@ -103,7 +103,7 @@ const ChatApp = () => {
 
                   <select
                     onChange={(e) => handleLanguageSelection(e.target.value)}
-                    className="p-1 font-bold bg-yellow-500 border border-gray-300 rounded-md text-black text-center" // Added bg-yellow-500 for yellow background
+                    className="p-1 font-bold bg-yellow-500 border border-gray-300 rounded-md text-black text-center"
                   >
                     {supportedLanguages.map((lang, index) => (
                       <option key={index} value={lang}>
@@ -159,25 +159,25 @@ const ChatApp = () => {
               </>
             )}
           </div>
-          <div className="p-5 flex items-center justify-between rounded-b-lg bg-gray-100 shadow-md">
+          <div className="p-5 flex items-center justify-between rounded-b-lg bg-gray-100 shadow-md backdrop-blur-lg backdrop-filter bg-opacity-30">
             <input
               type="text"
-              className="w-4/5 border border-gray-300 p-3 rounded-full placeholder-gray-400 bg-gray-200 text-gray-700 shadow-xl"
+              className="w-4/5 border border-gray-300 p-3 rounded-full placeholder-gray-400 bg-gray-200 text-gray-700 shadow-xl backdrop-blur-sm backdrop-filter bg-opacity-30"
               placeholder="Ask your queries"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
-              disabled={!isLanguageSelected} // Disable input until language is selected
+              disabled={!isLanguageSelected}
             />
 
             <button
-              className="p-2 border border-none rounded-full cursor-pointer "
+              className="p-2 border-none rounded-full cursor-pointer backdrop-blur-sm backdrop-filter bg-opacity-30"
               onClick={() => sendMessage()}
-              disabled={!isLanguageSelected} // Disable button until language is selected
+              disabled={!isLanguageSelected}
             >
               <img
                 src={SendIcon}
                 alt="Send"
-                className="w-8 h-7 shadow-xl" // Adjust size as needed
+                className="w-8 h-7 shadow-xl"
               />
             </button>
           </div>
@@ -185,7 +185,7 @@ const ChatApp = () => {
       )}
       {/* Toggle Chatbox Button */}
       <button
-        className="p-6  bg-yellow-500 mt-4 bg-gradient-to-r from-red-400 via-white-900 to-green-500 border-none rounded-full shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2 cursor-pointer"
+        className="p-6 bg-yellow-500 mt-4 bg-gradient-to-r from-red-400 via-white-900 to-green-500 border-none rounded-full shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2 cursor-pointer"
         onClick={toggleChatbox}
         style={{
           backgroundImage: `url('/src/assets/chatbot.png')`,
