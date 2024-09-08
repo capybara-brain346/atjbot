@@ -1494,12 +1494,14 @@ jQuery(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","curr
 
 
 <iframe scrolling="no" allowtransparency="true" src="https://platform.twitter.com/widgets/widget_iframe.2b2d73daf636805223fb11d48f3e94f7.html?origin=https%3A%2F%2Fdoj.gov.in" title="Twitter settings iframe" style="display: none;"></iframe><iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe"></iframe>
-<div class="fixed bottom-8 right-8 z-50">
+
+
+<div class="fixed bottom-8 right-8 z-50" style="width: 100%; height: 100%;">
     <!-- Container for the chatbot iframe -->
     <iframe id="chatIframe" 
         src="http://localhost:5173/" 
         class="transition-opacity duration-500 ease-in-out rounded-t-2xl shadow-lg" 
-        style="width: 500px; height: 600px; border:none;"></iframe>
+        style="width: 100%; height: 100%; border: none;"></iframe>
 </div>
 <script>
     $(document).ready(function () {
