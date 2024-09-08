@@ -9,6 +9,7 @@ const ChatApp = () => {
   const [message, setMessage] = useState("");
   const [messages, setMessages] = useState([]);
   const [showSuggestions, setShowSuggestions] = useState(true);
+  const [loading, setLoading] = useState(false); // Loading state for API call
   const [supportedLanguages] = useState([
     "Select A Language",
     "English",
@@ -53,6 +54,8 @@ const ChatApp = () => {
     // Append language preference to the message
     const messageWithLanguage = `${msg} |>${selectedLanguage}`;
 
+    setLoading(true); // Set loading to true when API call starts
+
     axios
       .post("http://127.0.0.1:5000/predict", { message: messageWithLanguage })
       .then((response) => {
@@ -75,6 +78,9 @@ const ChatApp = () => {
           isUser: false,
         };
         setMessages([errorMessage, ...messages]);
+      })
+      .finally(() => {
+        setLoading(false); // Set loading to false after API call finishes
       });
   };
 
@@ -115,46 +121,55 @@ const ChatApp = () => {
               </div>
             ) : (
               <>
-                {messages.map((msg, index) => (
-                  <div
-                    key={index}
-                    className={`p-2.5 max-w-[70%] mt-2 rounded-lg ${
-                      msg.isUser
-                        ? "bg-gray-200 self-end text-right"
-                        : "bg-purple-800 text-white"
-                    } ${msg.isLink ? "underline cursor-pointer" : ""}`}
-                  >
-                    {msg.isLink ? (
-                      <a
-                        href={msg.text}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        style={{
-                          display: "block",
-                          wordBreak: "break-word",
-                          overflowWrap: "break-word",
-                          color: "inherit",
-                        }}
-                      >
-                        {msg.text}
-                      </a>
-                    ) : (
-                      msg.text
-                    )}
+                {loading ? (
+                  <div className="flex items-center justify-center mt-4">
+                    {/* Loader */}
+                    <div className="loader border-t-4 border-b-4 border-yellow-500 w-8 h-8 rounded-full animate-spin"></div>
                   </div>
-                ))}
-                {showSuggestions && (
-                  <div className="flex flex-col items-center justify-center gap-2 mt-4">
-                    {suggestions.map((suggestion, index) => (
-                      <button
+                ) : (
+                  <>
+                    {messages.map((msg, index) => (
+                      <div
                         key={index}
-                        className="p-3 bg-blue-500 text-white rounded-full hover:bg-blue-600 w-3/4 text-center"
-                        onClick={() => handleSuggestionClick(suggestion)}
+                        className={`p-2.5 max-w-[70%] mt-2 rounded-lg ${
+                          msg.isUser
+                            ? "bg-gray-200 self-end text-right"
+                            : "bg-purple-800 text-white"
+                        } ${msg.isLink ? "underline cursor-pointer" : ""}`}
                       >
-                        {suggestion}
-                      </button>
+                        {msg.isLink ? (
+                          <a
+                            href={msg.text}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{
+                              display: "block",
+                              wordBreak: "break-word",
+                              overflowWrap: "break-word",
+                              color: "inherit",
+                            }}
+                          >
+                            {msg.text}
+                          </a>
+                        ) : (
+                          msg.text
+                        )}
+                      </div>
                     ))}
-                  </div>
+                    {showSuggestions && (
+                      <div className="flex flex-col items-center justify-center gap-2 mt-4">
+                        {suggestions.map((suggestion, index) => (
+                          <button
+                            key={index}
+                            className="p-3 bg-blue-500 text-white rounded-full hover:bg-blue-600 w-3/4 text-center"
+                            onClick={() => handleSuggestionClick(suggestion)}
+                          >
+                            {suggestion}
+                          </button>
+                        ))}
+                      </div>
+                    )}
+                  </>
                 )}
               </>
             )}
