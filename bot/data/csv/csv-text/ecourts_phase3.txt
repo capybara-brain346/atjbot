@@ -1,0 +1,47 @@
+Scheme Component: Scanning and Digitization and Digital Preservation of Case Records, Cost Estimate: 2038.40 Rs Cr.
+
+Scheme Component: Cloud Infrastructure, Cost Estimate: 1205.23 Rs Cr.
+
+Scheme Component: Additional hardware to existing courts, Cost Estimate: 643.66 Rs Cr.
+
+Scheme Component: Infrastructure in newly set up courts, Cost Estimate: 426.25 Rs Cr.
+
+Scheme Component: Virtual Courts, Cost Estimate: 413.08 Rs Cr.
+
+Scheme Component: eSewa Kendra, Cost Estimate: 394.48 Rs Cr.
+
+Scheme Component: Paperless Court, Cost Estimate: 359.20 Rs Cr.
+
+Scheme Component: System and Application Software Development, Cost Estimate: 243.52 Rs Cr.
+
+Scheme Component: Solar Power Backup, Cost Estimate: 229.50 Rs Cr.
+
+Scheme Component: Video Conferencing set-up, Cost Estimate: 228.48 Rs Cr.
+
+Scheme Component: e-Filing, Cost Estimate: 215.97 Rs Cr.
+
+Scheme Component: Connectivity (Primary + Redundancy), Cost Estimate: 208.72 Rs Cr.
+
+Scheme Component: Capacity Building, Cost Estimate: 208.52 Rs Cr.
+
+Scheme Component: CLASS (Courtroom Live-Audio Visual Streaming System), Cost Estimate: 112.26 Rs Cr.
+
+Scheme Component: Human Resources, Cost Estimate: 56.67 Rs Cr.
+
+Scheme Component: Future Technological Advancements, Cost Estimate: 53.57 Rs Cr.
+
+Scheme Component: Judicial process re-engineering, Cost Estimate: 33.00 Rs Cr.
+
+Scheme Component: Disabled friendly ICT enabled facilities, Cost Estimate: 27.54 Rs Cr.
+
+Scheme Component: NSTEP, Cost Estimate: 25.75 Rs Cr.
+
+Scheme Component: Online Dispute Resolution (ODR), Cost Estimate: 23.72 Rs Cr.
+
+Scheme Component: Knowledge Management System, Cost Estimate: 23.30 Rs Cr.
+
+Scheme Component: e-Office for High Courts & District Courts, Cost Estimate: 21.10 Rs Cr.
+
+Scheme Component: Integration with Inter-Operable Criminal Justice System (ICJS), Cost Estimate: 11.78 Rs Cr.
+
+Scheme Component: S3WAAS platform, Cost Estimate: 6.35 Rs Cr.

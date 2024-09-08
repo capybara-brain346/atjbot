@@ -1,0 +1,7 @@
+Designation: Chief Justice of India, FurnishingAllowance: Rs.1000000/-, HRA: 24% of Basic Salary, Sumptuary Allowance: Rs.45000/- per month
+
+Designation: Judges of Supreme Court, FurnishingAllowance: Rs.800000/-, HRA: 24% of Basic Salary, Sumptuary Allowance: Rs.34000/- per month
+
+Designation: Chief Justices of High Court, FurnishingAllowance: Rs.800000/-, HRA: 24% of Basic Salary, Sumptuary Allowance: Rs.34000/- per month
+
+Designation: Judges of High Court, FurnishingAllowance: Rs.600000/-, HRA: 24% of Basic Salary, Sumptuary Allowance: Rs.27000/- per month
