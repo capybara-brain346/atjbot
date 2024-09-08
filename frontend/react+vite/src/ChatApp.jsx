@@ -3,13 +3,15 @@ import axios from "axios";
 import "./index.css";
 
 import SendIcon from "./assets/Vector.png";
+import ChatbotIcon from "./assets/chatbot.png"; // Import Chatbot icon
+import CloseIcon from "./assets/cross-small_4338828.png"; // Import Close icon
 
 const ChatApp = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [message, setMessage] = useState("");
   const [messages, setMessages] = useState([]);
   const [showSuggestions, setShowSuggestions] = useState(true);
-  const [loading, setLoading] = useState(false); // Loading state for API call
+  const [loading, setLoading] = useState(false);
   const [supportedLanguages] = useState([
     "Select A Language",
     "English",
@@ -51,10 +53,8 @@ const ChatApp = () => {
     setMessage("");
     setShowSuggestions(false);
 
-    // Append language preference to the message
     const messageWithLanguage = `${msg} |>${selectedLanguage}`;
-
-    setLoading(true); // Set loading to true when API call starts
+    setLoading(true);
 
     axios
       .post("http://127.0.0.1:5000/predict", { message: messageWithLanguage })
@@ -80,7 +80,7 @@ const ChatApp = () => {
         setMessages([errorMessage, ...messages]);
       })
       .finally(() => {
-        setLoading(false); // Set loading to false after API call finishes
+        setLoading(false);
       });
   };
 
@@ -123,7 +123,6 @@ const ChatApp = () => {
               <>
                 {loading ? (
                   <div className="flex items-center justify-center mt-4">
-                    {/* Loader */}
                     <div className="loader border-t-4 border-b-4 border-yellow-500 w-8 h-8 rounded-full animate-spin"></div>
                   </div>
                 ) : (
@@ -189,11 +188,7 @@ const ChatApp = () => {
               onClick={() => sendMessage()}
               disabled={!isLanguageSelected}
             >
-              <img
-                src={SendIcon}
-                alt="Send"
-                className="w-8 h-7 shadow-xl"
-              />
+              <img src={SendIcon} alt="Send" className="w-8 h-7 shadow-xl" />
             </button>
           </div>
         </div>
@@ -203,7 +198,9 @@ const ChatApp = () => {
         className="p-6 bg-yellow-500 mt-4 bg-gradient-to-r from-red-400 via-white-900 to-green-500 border-none rounded-full shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2 cursor-pointer"
         onClick={toggleChatbox}
         style={{
-          backgroundImage: `url('/src/assets/chatbot.png')`,
+          backgroundImage: `url(${
+            isVisible ? CloseIcon : ChatbotIcon
+          })`,
           backgroundSize: "contain",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
