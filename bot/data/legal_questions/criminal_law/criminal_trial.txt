@@ -1,0 +1,76 @@
+What happens during a criminal trial?
+
+Substantive Criminal Law or Real Criminal Law 	Procedural Criminal Law or Adjective Criminal Law
+1.    Indian Penal Code, 1860 	1.    Code of Criminal Procedure, 1973
+
+2.    Indian Evidence Act, 1872
+
+Indian Penal Code and Code of Criminal Procedure are together known as “twin sisters” of criminal law.
+
+Code of Criminal Procedure (Cr. P. C.) is the procedural law for conducting a criminal trial in India. The procedure includes the manner for collection of evidence, examination of witnesses, interrogation of accused, arrests, safeguards and procedure to be adopted by Police and Courts, bail, the process of criminal trial, a method of conviction, and the rights of the accused of a fair trial by principles of natural justice.
+Download Now
+
+Indian Penal Code (IPC) is the primary penal law of India, which applies to all offences. Indian Evidence Act (IEA) is a comprehensive, treaty on the law of “evidence”, which can be used in the trial, the manner of production of the evidence in a trial, and the evidentiary value which can be attached to such evidence.
+Types of Criminal Trial
+
+According to the Code of Criminal Procedure, a Criminal Trial is of three types. Depending upon the type of criminal trial the different stages of a criminal trial are discussed below.
+
+1
+Warrant Cases
+
+According to Section 2(x) of Code of Criminal Procedure, 1973 a warrant case is one which relates to offenses punishable with death, imprisonment for life or imprisonment for a term of seven years or more. The trial in warrant cases starts either by the filing of FIR in a police station or by filing a complaint before a magistrate. Later, if the magistrate is satisfied that the offense is punishable for more than two years, he sends the case to the sessions court for trial. The process of sending it to sessions court is called “committing it to sessions court”.
+
+Important features of a warrant case are:
+
+    Charges must be mentioned in a warrant case
+    Personal appearance of accused is mandatory
+    A warrant case cannot be converted into a summons case
+    The accused can examine and cross-examine the witnesses more than once.
+    The magistrate should ensure that the provisions of Section 207 are .
+    Section 207 of Cr. P.C. 1973, include the supply of copies such as police report, FIR, statements recorded or any other relevant document to the accused.
+
+The stages of trial in warrant cases are given from Section 238 to Section 250 of the Code of Criminal Procedure, 1973.
+2
+Different Stages of Criminal Trial in a Warrant Case when instituted by the police report
+
+    First Information Report: Under Section 154 of the Code of Criminal Procedure, a FIR or First Information Report is registered. FIR puts the case into motion. A FIR is information given by someone (aggrieved) to the police relating to the commitment of an offense.
+    Investigation: The next step after the filing of FIR is the investigation by the investigating officer. A conclusion is made by the investigating officer by examining facts and circumstances, collecting evidence, examining various persons and taking their statements in writing and all the other steps necessary for completing the investigation and then that conclusion is filed to the magistrate as a police report.
+    Charges: If after considering the police report and other important documents the accused is not discharged then the court frames charges under which he is to be trialled. In a warrant case, the charges should be framed in writing.
+    Plea of guilty: Section 241 of the Code of Criminal Procedure, 1973 talks about the plea of guilty, after framing of the charges the accused is given an opportunity to plead guilty, and the responsibility lies with the judge to ensure that the plea of guilt was voluntarily made. The judge may upon its discretion convict the accused.
+    Prosecution evidence: After the charges are framed, and the accused pleads guilty, then the court requires the prosecution to produce evidence to prove the guilt of the accused. The prosecution is required to support their evidence with statements from its witnesses. This process is called “examination in chief”. The magistrate has the power to issue summons to any person as a witness or orders him to produce any document.
+
+https://lawsikho.com/course/certificate-criminal-litigation-trial-advocacy
+click above
+
+    Statement of the accused: Section 313 of the Criminal Procedure Code gives an opportunity to the accused to be heard and explain the facts and circumstances of the case. The statements of accused are not recorded under oath and can be used against him in the trial.
+    Defence evidence: An opportunity is given to the accused in a case where he is not being acquitted to produce so as to defend his case. The defense can produce both oral and documentary evidence. In India, since the burden of proof is on the prosecution the defense, in general, is not required to give any defense evidence.
+    Judgement: The final decision of the court with reasons given in support of the acquittal or conviction of the accused is known as judgement. In case the accused is acquitted, the prosecution is given time to appeal against the order of the court. When the person is convicted, then both sides are invited to give arguments on the punishment which is to be awarded. This is usually done when the person is convicted of an offense whose punishment is life imprisonment or capital punishment.
+
+3
+Stages of Criminal Trial in a Warrant Case when Private Complaint institutes case
+
+    On the filing of the complaint, the court will examine the complainant and its witnesses on the same day or any other day to decide whether any offense is made against the accused person or not.
+    After examination of the complainant, the Magistrate may order an inquiry into the matter and submit a report for the same.
+    After examination of the complaint and the investigation report, the court may come to a conclusion whether the complaint is genuine or whether the prosecution has sufficient evidence against the accused or not. If the court does not find any sufficient material through which he can convict the accused, then the court will dismiss the complaint and record its reason for dismissal.
+    After examination of the complaint and the inquiry report, if the court thinks that the prosecution has a genuine case and there are sufficient material and evidence with the prosecution to charge the accused then the Magistrate may issue a warrant or a summon depending on the facts and circumstances.
+
+Summon Cases
+
+According to Section 2(w) of Code of Criminal Procedure, 1973, Those cases in which an offense is punishable with an imprisonment of fewer than two years is a summon case. A summon case doesn’t require the method of preparing the evidence. Nevertheless, a summon case can be converted into a warrant case by the magistrate if after looking into the case he thinks that the case is not a summon case.
+
+Important points about summons case
+
+    A summons case can be converted into a warrant case.
+    The person accused need not be present personally.
+    The person accused should be informed about the charges orally. No need for framing the charges in writing.
+    The accused gets only one opportunity to cross-examine the witnesses.
+
+The different stages of criminal trial in a summon case are given from Section 251 to Section 259 of the Code of Criminal procedure.
+Stages of Criminal Trial in a Summons Case
+
+    Pre-trial: In the pre-trial stage, the process such as filing of FIR and investigation is conducted.
+    Charges: In summons trials, charges are not framed in writing. The accused appears before the court or is brought before the court then the Magistrate would orally state the facts of the offense he is answerable.
+    Plea of guilty: The Magistrate after stating the facts of the offense will ask the accused if he pleads guilty or has any defense to support his case. If the accused pleads guilty, the Magistrate records the statement in the words of the accused as far as possible and may convict him on his discretion.
+    Plea of guilty and absence of the accused: In cases, where the accused wants to plead guilty without appearing in the court, the accused is supposed to send Rs.1000/- by post or through a messenger (lawyer) to the Magistrate. The absentee should also send a letter containing an acceptance of guilt and the amount of fine provided in the summons. The Magistrate can on his discretion convict the accused.
+    Prosecution and defense evidence: In summons case, the procedure followed is very simple and elaborate procedures are eliminated. If the accused does not plead guilty, then the process of trial starts. The prosecution and the defense are asked to present evidence in support of their cases. The Magistrate is also empowered to take the statement of the accused.
+    Judgement: When the sentence is pronounced in a summons case, the parties need not argue on the amount of punishment given. The sentence is the sole discretion of the judge. If the accused is acquitted, the prosecution has the right to appeal. This right to appeal is also extended to the accused.

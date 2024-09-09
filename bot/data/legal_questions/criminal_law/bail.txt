@@ -1,0 +1,188 @@
+What is bail, and how does it work?
+
+Law Of Bail In India
+
+Bail is a Release of the convicted person to submit a personal bond or assurance to comply with the conditions imposed by the court and to appear before the court. Just because a person is accused of a crime, an endless period of time is not required to hold the individual in custody.
+
+Bail is a fundamental aspect of any criminal justice system that guarantees the accused the right to a fair trial. The practice of granting bail grew out of the need to safeguard the fundamental right to liberty. No person shall be deprived of their personal liberty unless prescribed so by a reasonable, fair, and just procedure. [1]
+
+Bail is a mechanism that ensures liberty to the accused without giving any unjustified benefit to them. However, it has been observed that the practice of granting bail is quite unstable and vague. Including factors like bail bond amount, considerations for granting bail, and conditions imposed in the bail bond. There are various judgments wherein the apex court has observed that each case needs to be examined for its facts and circumstance before granting bail.
+
+The paramount consideration for granting or refusing bail is to strike a balance between individual rights and the interest of society.
+
+In Black's Law Dictionary, bail has been defined as security such as cash or bond especially security required by a court for the release of a prisoner who must appear at a future date.[2]
+
+According to Supreme Court of India, Bail is devised as a technique for affecting the synthesis of two basic concepts of human values, namely the right of an accused person to enjoy his personal freedom and the public interest, subject to which, the release is conditional on the surety to produce the accused person in court to stand the trial.[3]
+
+In recent times, bail-in India is a highly debated issue. There are a number of reports that explain the state of the criminal justice system in India. The release on bail is crucial to the accused as the consequences of pre-trial detention is given by the state agencies. If release on bail is denied to the accused, it would mean that though he is presumed to be innocent till the guilt is proved beyond a reasonable doubt in the court, he would be subjected to the psychological and physical deprivations of jail life. As a result, the jailed accused loses his job and is prevented from contributing effectively to the preparation of his defense. Equally important, the burden of his detention frequently falls heavily on the innocent members of his family.
+
+
+Law of bail should balance between two conflicting demands: shielding the society from misadventures of the person allegedly involved in the crime and presumption of the innocence of the accused till he is found guilty. The courts below are supposed to be guided by the principle, bail is the rule and jail is an exception but that exception is further subject to an exception that the provisions of bail should not be interpreted only for the benefit of the accused person but also for the benefit of the prosecution as well as for the benefit of the society at large, which can also be affected directly or indirectly with the commission of an offense against society as a whole. In a conflict between social security and individual liberty, the court need to sacrifice the security of the society at the individual liberty. Personal liberty is a fundamental right protected by our Constitution; vide Article 21, for deprivation whereof merely legally the approved procedure of arrest and detention are not enough unless they are shown to be reasonable, fair, and just.
+
+In the Indian legal system, provisions related to bail can be found in Chapter III CrPrc under Section 436 to 450. In the context of bail, the term offense has been categorized as bailable offenses and non-bailable. As defined in Section 2(a),
+
+bailable offense means an offense which is shown as bailable in the First Schedule, or which is made bailable by any other law for the time being in force; non-bailable offense means any other offence.[4]
+
+Bailable offenses are presumably less heinous therefore the sentence for the same is less severe and the accused can claim release on bail as a matter of their right. Generally, certain forms of crimes are punishable for less than three years. The chances of getting bail are far better in the case of bailable offences. Bailable Offense refers to an offence that is listed as bailable. In the event of such an offence, after such requirements have been met, bail can be issued as a matter of law under Section 436 of the CrPC. In the case of bailable offences, at the time of arrest or incarceration, the police are allowed to issue bail to the defendant.
+
+
+Therefore, in bailable offences, it is mandatory upon the court and police to release the accused at any time during their arrest or custody.
+
+The term non-bailable doesn't imply that bail can't be granted at all. It simply means that the accused can't claim it as a matter of their right at the time of the arrest or custody. But they can approach the court when while they are under trial. When opposed to bailable offences, these offences are grievous in nature. The sentence in the case of non-bailable crimes is three years or more. In non-bailable offences, it's the court's discretion to grant bail to the accused. And the same must be decided judiciously and not whimsically.
+
+General Principle Regarding Bail Law
+
+    Grant of bail in the cases of bailable offences is a right that should be guaranteed to the accused by the magistrate or police
+    Grant of bail in non-bailable offences is a judicial discretion given to the magistrate and no power is given to the police in these kinds of cases.
+    The accused who has committed the offence which is punishable by death or imprisonment for life the magistrate has no right to grant bail in those circumstances, but women, a person sick or infirm and children below the age of 16 are excused from the rule.
+    The judicial discretion in the cases of bail the appellant court has the massive authority.
+
+
+The section which provides for grant of bail is under Chapter XXXIII in the section 436-450 of the code, these can also further be classified as cognizable and non-cognizable offences.
+
+Problems With The Indian Bail System
+In the famous case of Narasimhulu v. Public Prosecutor, Justice Krishna Iyer remarked that:
+The subject of bail belongs to the blurred area of the criminal justice system and largely hinges on the hunch on the bench, otherwise called as judicial discretion.
+
+
+It is imperative that discretion must be exercised with caution and care and must be applied by balancing the interests of both justice and personal liberty of individuals. It must not be arbitrary, vague, and fanciful, but legal and regular. The recent trend of arbitrariness in exercising discretion has been a serious roadblock in achieving the ends of justice. In cases involving high-profile individuals, bail is granted without considering the enormity of the case.
+
+These individuals walk free when the people affected by them reel in injustice. It has become a norm than an aberration in most jurisdictions including India that the powerful, rich and influential obtain bail promptly and with ease, whereas the mass/ common / the poor languish in jails.
+
+Another major problem in the bail system is the amount of bail bonds set by the court. The economic and financial situation of a person and must be considered before courts reach a decision regarding the amount of bail.
+
+From the analysis of data and statistics in the Law Commission Report, it can be observed that a majority of under trial prisoners i.e, 70.6% are illiterate or semi-illiterate which is an indicator of poor economic background. They are trapped in the vicious cycle of poverty and illiteracy coupled with a continuous violation of their right to personal liberty and dignity. An accused person's economic status appears to have become the decisive factor for granting pre-trial release.
+
+A Glance At Fundamentals Of Granting Bail
+Bail has a long history in the Indian criminal justice system. The right to be released on bail accrues after arrest or on well-founded apprehension of the arrest.
+
+One of the fundamental Principle of the Indian criminal justice system stipulates that punishment should begin only after conviction. Hence, the right to liberty cannot be taken away from a person unless it is under the law. The Apex Court in Maneka Gandhi v. Union of India[5] observed that depriving someone of their liberty without due process must be considered as a punishment.
+
+Another fundamental principle that goes without saying is the presumption of innocence, there are very few cases where this principle is reversed. Therefore, one of the important tenets of bail and criminal jurisprudence is that a person is believed to be innocent until proven guilty beyond a reasonable doubt.
+
+
+It has been traced out that the concept of bail emerges to secure personal liberty protected under Article 21 of the constitution, of the person charged with some offense. Under the principle of equality, equal treatment must be meted out even to a foreigner when granting bail.
+
+The philosophy for granting bail has been discussed in a various pronouncement including Vaman Narain Ghiya v. State of Rajasthan[6] in which the court has observed:
+law of bail like any other branch of law has its own philosophy and occupies an important place in the administration of justice.
+
+Another fundamental principle that is often neglected despite being primary to the criminal justice system is that bail is a rule to the exception that is jail. With time, recent practice has emerged concerning successive bail applications. The second bail application cannot be filed on the same facts and grounds. Section 362 CrPC states:
+Save as otherwise provided by this Code or by any other law for the time being in force, no Court, when it has signed its judgment or final order disposing of a case, shall alter or review the same except to correct a clerical or arithmetical error.
+
+This bar lies against the judgment and final order not against interlocutory order passed during the proceeding; bail is an interlocutory order. Hence, Section 362 does not have any application on bail.
+
+In Kalyan Chandra Sarkar v. Rajesh Ranjan[7] the apex court held that if there is a substantial change in the facts and circumstances of the case, then it gives ground for making another application for grant of bail. So, there should be no apprehension in entertaining a second application.
+
+The court also said that there is no prohibition on filing a fresh bail application on the filing of charge-sheet provided that on the earlier occasions, the bail application is decided based on other material, might be based on the First Information Report.[xii] So the bail application submitted after the filing of the charge-sheet should be considered as a change of substantial nature.
+
+
+In LT. Col. Prasad Shrikant Purohit v. State of Maharashtra[8] the court said that an accused person has a right to make successive applications for bail, the court entertaining such subsequent bail application must consider the reason and ground on which the earlier bail application was rejected. And, in the case where bail is granted, the court should record reasons which persuaded the court to take a view different from the one taken in the earlier application
+
+Bail And Judicial Discretion
+The notorious delay in disposal of case is an infirmity of the legal and judicial system which is responsible for the gross denial of justice to the under-trial prisoners. It is a sad reflection on the a legal and judicial system that the trial of an accused should not even commence for a long number of years.
+
+Even a delay of one year in the commencement of the trial is bad enough: how much worse could it be when the delay is as long as 3 or 5, 7, or even 10 years. Speedy trial is of the essence of criminal justice and there can be no doubt that delays in trial by themselves constitutes a denial of justice.[9]
+
+Though the speedy trial is not specifically enumerated as a fundamental right in the Constitution of India. It is implicit in the broad sweep and content of Article 21, as interpreted by the Supreme Court [10], wherein it was held that Article 21 confers a fundamental right on every person not to be deprived of his life or liberty except in accordance with the procedure prescribed by law and it is not enough to constitute compliance with the requirement of that Article that some semblance of a procedure should be prescribed by law, but that the procedure should be reasonable, fair and just.
+
+What would be the consequence if a person accused of an offence is denied a speedy trial and is sought to be deprived of his liberty by imprisonment as a result of a long-delayed trial in violation of his fundamental right under Art 21. Would he be entitled to be released unconditionally freed from the charge leveled against him on the ground that trying him after an unduly long period of time and convincing him after such the trial would constitute a violation of his fundamental right under Article 21 of the Constitution?
+
+Leaving this question, to be decided on the adjourned date, the Supreme Court observed in Hussainara Khatoon [11] as under:
+But one thing is certain and we cannot impress it too strongly on the State Government that it is high time that the State Government realized its responsibility to the people in the matter of administration of justice and set up more courts for the trial of cases.
+
+We may point out that it would not be enough merely to establish more courts but the State Government would also have to man them by competent Judges and whatever is necessary for the purpose of recruiting competent Judges, such as improving their conditions of service, would have to be done by the State Government, if they want to improve the system of administration of justice and make it an effective instrument for reaching justice to the large masses of people for whom justice is today a meaningless and empty word.
+
+But, subsequently, the Supreme Court continued, Speedy trial is an essential ingredient of reasonable, fair and just procedure guaranteed by Article 21 and it is the constitutional the obligation of the State to devise such a procedure as would ensure speedy trial to the accused.
+
+The State cannot be permitted to deny the constitutional right of speedy trial to the accused on the ground that the State has no adequate financial resources to incur the necessary expenditure needed for improving the administrative and judicial apparatus with a view to ensuring speedy trial. The The state may have its financial constraints and its priorities in expenditure, but the law does not permit any Government to deprive its citizens of constitutional rights on a plea of poverty.
+
+The State cannot avoid its constitutional obligation to provide speedy trial to the accused by pleading financial or administrative inability. The State is under a constitutional mandate to ensure speedy trial and whatever is necessary for this purpose has to be done by the State.
+
+The powers of the Supreme Court in protection of the constitutional rights are of the widest amplitude and there is no reason why the Supreme Court should not adopt an activist approach and issue to the State directions which may involve the taking of positive action with a view to securing enforcement of the fundamental right to a speedy trial.
+
+Bail is a matter of judicial discretion. While considering whether to grant or not to grant bail, conflicting claims of individual liberty of the accused and the larger societal interest have to be taken note of. Article 21 of the Constitution of India recognizes the right of a speedy trial to every citizen. The object of the new Code of Criminal Procedure is the expeditious trial. The delay in the conclusion of the trial violates the constitutional guarantee of a fair, just, and reasonable procedure and in fact a fundamental right of the speedy trial[12]
+
+Bail Trend Between District And High Courts
+Substantial differences are found in the judgments regarding the bail of the trial court and the High Courts. In most of the cases it has been observed that in cases where the trial court rejects the bail plea, bail is accepted by the High Court. The trial court dismisses the bail petition like other petitions without mentioning any judicial view.
+
+Each case of a crime is of a different kind, but the order of dismissal of the bail petition is almost of the same kind which is written mechanically that the offense is of serious condition, so it would not be appropriate to grant bail. Thus, by writing, the trial court dismisses the bail plea even in cases in which the offense is not initially constituted and the accused cannot be sentenced even if the documents presented by the police are accepted.
+
+On the other hand, the High Court and the Supreme Court adopts humane behavior towards bail and decide on bail according to the circumstances. In spite of the legal view of the High Court and the Supreme Court being conveyed to the trial court, the learned judicial officer writes the circumstances of the case differently and dismisses the bail application mechanically. But when the matter reaches the High Court, it writes in the bail order without reacting to it that in our opinion it seems appropriate to grant bail. This makes the case entirely of judicial discretion.
+
+Thus, despite having constitutional rights, the accused has to wait for 90 days to present the charge sheet for hearing the bail petition, then is forced to wait for one to two months for a hearing in the High Court.
+
+Life and liberty have been given the highest position in the Indian Constitution. There has always been a conflict between Article 21 of the Indian Constitution and the bail provisions of Criminal Procedure Code Sections 437, 438, 439. In criminal cases, bail is the rule and judicial custody is the exception. The different judicial approach of the country's top courts and the trial court has made the law of bail disputed.
+
+The difference between the constitutional provision and the law of bail is clearly visible in the order related to the bail of the trial court and the Supreme Court. Both the Supreme Court and the High Court pass an order of bail interpreting Article 21 of the Constitution, while the trial court continues to dismiss the mechanized deposition petition repeating the circumstances of the case and the seriousness of the offense.
+
+The role of the trial court appears to be to dismiss the bail plea when she dismisses the women's bail petition like other petitions without mentioning any judicial view. Every case of crime is of a different kind, but the order of dismissal of the bail petition is almost the same, which is written mechanically.
+
+Since the offense is of a serious condition, granting of bail does not seem appropriate, the writ court dismisses the bail petition even in cases where the offense is not initially constituted and in case of acceptance of documents submitted by the police. Even the accused cannot be sentenced. The Supreme Court's legal approach does not follow the trial court in bail-related cases.
+
+Criticism Of Bail Based On Money
+One of the criticisms frequently raised on the bail system is that it is based on money because even after various reforms in the penal law, it is the surety that discriminates against poor people. Financially sound individuals can easily succeed in purchasing their freedom while poor people suffering from financial bail system stay in prison because they cannot get money. In fact, the ability to pay is the only factor in deciding who is freed and who is in prison.
+
+The natural impropriety of this method raises the question whether such a method is actually practical. The judgment of the Supreme Court in the case of Rudal Shah v. State of Bihar[13] is an eye-opening incident of the worst example of state executive inaction regarding the status of poor people. He was released from prison after 14 years, ie on 16 October 1982, despite being acquitted of all charges by the competent penal court on 3 June 1968.
+
+Effect Of Pandemic
+From the lack of medical care in detention facilities to severe overcrowding and being abruptly cut off from the world outside, incarcerated persons have had to endure the worst form of human rights violations in the ongoing COVID-10 pandemic.
+
+The abrupt announcement of a complete nationwide lockdown on March 24 last year, prison departments across the country responded to the order by barring all personal physical meetings inside prisons. Lawyers and family members were denied jail mulaqats (visits) without making any alternative arrangements. The study points that despite the Supreme Court's order to adopt video conferencing technologies to overcome the lack of physical meetings, many states have failed to make necessary arrangements.
+
+Even when some states made the technical arrangements available, they proved to be inadequate. The duration of video calls was very limited, the study says. In Karnataka, for instance, it was reportedly between five and 10 minutes. The study also points to the worrying state of prisoners in Jammu and Kashmir who were allowed a phone call to their family only once in 15 days.
+
+Several states have recorded COVID-19 outbreaks in prisons with very little measures taken to control them. Several prisoners died of the infection too.
+
+Two prisoners housed in Tihar jail died of Covid-19 on Tuesday night, even as the infection is spreading rapidly through the country's most populated prison complex, prison officials said Wednesday. Since April, Tihar has reported 284 cases of Covid-19 among prisoners and 115 among jailers, raising fears of a mass infection spread inside the jail. At over 20,500 prisoners currently, the inmate count at Tihar jail is the highest ever in its history.[14]
+
+Further, a woman inmate in Delhi's Tihar jail died due to the COVID-19 while a total of 30 women lodged in Tihar have tested positive for Covid. A senior Tihar jail official said that 57 out of total 444 women inmates lodged in Jail No. 6 of Tihar tested Covid-19 positive. A total of 26 women inmates have recovered while 30 are undergoing treatment and one died. According to data shared by the prisons department, 303 inmates have tested positive for the coronavirus since March 2021. Of them, 33 recovered, four expired and 266 active cases are still there. [15]
+
+A total of 125 staff members have tested positive for the virus since March this year. Eight have recovered and 117 are still under treatment, it said.
+
+Last year, when the pandemic broke out, nearly 6,000 prisoners were released on special parole/bail to ensure social distancing within the jail. However, between February 6 and March 18, 2021, almost all these prisoners surrendered and returned to jail, after spending nearly 10-11 months outside. Their return meant that the prison was once again crowded, leaving little space for isolation of suspected Covid-19 patients and new inmates.
+
+Statistical Data And Analysis On Bail In India
+The data collected regarding the prison population in India represents a grim scenario. It indicates that 67 per cent of the prison population is awaiting trial in India. Inconsistency in the bail system may be one of the reasons for the over-crowding of prisons across the country and giving rise to another set of challenges to the Prison Administration and State thereto. Freedoms as guaranteed under Part III of the Constitution has a unique relationship with the ideas and objectives enshrined in the Preamble of the Constitution of India i.e. Justice economic, social, and political.
+
+It remains one of the solemn duties of the republic and its realization in its full sense is one of the cherished goals. It has become a norm than an aberration in most jurisdictions including India that the powerful, rich and influential obtain bail promptly and with ease, whereas the mass/ common / the poor languish in jails. Thus, it is one of the malaises which are affecting the common citizens and family thereto, which not only deny the basic tenet of justice but even human dignity is at stake. A majority of under-trials (70.6 per cent) are illiterate or semiliterate.[16]
+
+In the absence of data regarding the economic status of prisoners, literacy serves as a useful proxy to appreciate that, the majority of undertrials belong to the socioeconomically marginalized groups. Various reports from the Ministry of Home Affairs show that a total of 2,31,340 under-trial prisoners from various States and Union Territories were lodged in jails for committing crimes under Indian Penal Code (IPC), and 50,457 were under-trials under special laws, e.g. Customs Act of 1962, Narcotic Drugs and Psychotropic Substances Act of 1985, Excise Act of 1944, etc.40. A large number of 12,92,357 under-trials were released during 2015 out of which 11,57,581 were released on bail.
+
+Conclusion
+Law of bail should balance between two conflicting demands of the society as a whole. Shielding society from misadventures of the persons allegedly involved in the crime and presumption of the innocence of the accused till he is found guilty.[17]The courts below are supposed to be guided by the principle Bail is the rule and jail is an exception but that exception is further subject to an exception that the provisions of bail should not be interpreted only for the benefit of the accused but also for the benefit of the prosecution as well as for the benefit of the society at large, which can also be affected directly or indirectly with the commission of an offense against society. In a conflict between social security and individual liberty, the court need not sacrifice the security of the society at the altar of individual liberty.[18]
+
+A system of checks and balances, in the form of a competent authority, has to bring into force targeting at the arbitrary exercise of discretion by courts. Bail procedures for the economically marginalized section of the society must be carried without much delay and formalities which would otherwise result in a flagrant violation of their fundamental rights.
+
+The question of bail or jail alternatives needs to be answered at the stages of arrest, investigation inquiry, and trial and also at the stage of appeal after conviction of the accused. The jurisprudence of bail should give equal impact so far as the freedom of person and the interests of social order.
+
+As a matter of fact, the law of bail has to be compatible with the principle of presumption of innocence. If a person held in custody pending trial suffers the same restrictions on his liberty as one serving a sentence of imprisonment after conviction. By keeping accused persons out of custody until tried, convicted and sentenced, bail should protect against the negation or dilution of the presumption of innocence.
+
+Suggestions:
+
+    Check the Administration of Criminal Justice:
+    Urgent attention is needed towards proper functioning of police power and developing the devices to control the police power, availability of legal aid services during preliminary steps and speed trial of the accused.
+     
+    Must be clear and certain:
+    There should be reformation in the bail law. Uncertainty replaces by clearly matters which are related to jurisdiction, granting bail during successive steps, and extent of power of court for granting and refusing of bail should be clearly defined.
+     
+    Statutory Limit of Bail Bond and Sureties must be fixed:
+    Basically, there is no statutory limit for the amount of bail bond and sureties; It is depending upon the discretion of court. The provision should be made for different categories.
+     
+    Justification of discretionary power of Court with respect to granting bail:
+    The judges have been given discretionary power with respect to granting of bail. Generally bails granted by lower Courts are canceled by the Higher Court. There must be justified criteria for granting or refusal of bail, so judges will not be able to misuse their powers.
+     
+    Principles should be given be code:
+    The Code of Criminal Procedure given only the outlines of the provision regarding bail, while discussing the care judges used their discretionary power. Detailed provisions regarding the utility, applicability, granting, refused of bail, check and balance on the powers of police and courts, remedies regarding the abusing of power by the court, amount of bail bond or sureties or if party not able to submit there on time should be discussed in detail or there must be a separate code regarding bail provision.
+     
+    Other Suggestions:
+        Responsibilities of the judicial officer may kindly be fixed who are granting bail to the accused without any reasonable grounds.
+        The discretionary powers of the judicial officers in matters of granting bail should be properly checked. In case such officer is found at fault and using his/her discretion unreasonably for granting bail to the accused then the liability of such officer may be fixed the officer concerned should be penalized in proportion to his/her fault.
+        There should be proper guidelines for fixing the criteria for granting anticipatory bail to the accused.
+        The judicial officer should adopt a reformative approach in view of Article21 of the Indian Constitution while granting bail to the accused.
+        Unnecessary pre-trial confinement should be minimized. Confinement is detrimental to the person accused of an offense that is kept in custody, imposes an unproductive burden on the state, and can have an adverse impact on future criminal behavior, and its reformative perspectives will stand diminished.
+
+
+Every citizen of India has a basic fundamental right to freedom guaranteed Article 21 of the Indian constitution, which specifically states:
+No person shall be deprived of his life or personal liberty except according to procedure established by law.
+
+Article 21 provides the right to life and personal liberty to the citizen and the same time a balance has required to be struck between the right to individual liberty and the interest of the society at large. If any of the individual, who commit such types of acts which that is forbidden by the law of the land, he or she is bound to face the consequences as per the law and in that situation, his or her freedom may be restricted depending upon the gravity of offense as such committed.

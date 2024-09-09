@@ -29,7 +29,10 @@ const ChatApp = () => {
   const [selectedLanguage, setSelectedLanguage] = useState("");
   const [isLanguageSelected, setIsLanguageSelected] = useState(false);
 
-  const suggestions = ["What is tele law?", "What is Department of Justice?"];
+  const suggestions = [
+    "Tell me about Mann Ki Baat",
+    "Tell me about Har Ghar Tiranga",
+  ];
 
   const toggleChatbox = () => {
     setIsVisible(!isVisible);
@@ -198,9 +201,7 @@ const ChatApp = () => {
         className="p-6 bg-yellow-500 mt-4 bg-gradient-to-r from-red-400 via-white-900 to-green-500 border-none rounded-full shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2 cursor-pointer"
         onClick={toggleChatbox}
         style={{
-          backgroundImage: `url(${
-            isVisible ? CloseIcon : ChatbotIcon
-          })`,
+          backgroundImage: `url(${isVisible ? CloseIcon : ChatbotIcon})`,
           backgroundSize: "contain",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
