@@ -87,7 +87,7 @@ class RAGPipeline:
 
         return chunks
 
-    def populate_chroma(self, chunks: List[Document]):
+    def populate_chroma(self, chunks: List[Document]) -> None:
         db = Chroma(
             persist_directory=self.database_path,
             embedding_function=GoogleGenerativeAIEmbeddings(
@@ -113,11 +113,11 @@ class RAGPipeline:
         else:
             print("No new documents to add")
 
-    def clear_database(self):
+    def clear_database(self) -> None:
         if os.path.exists(self.database_path):
             shutil.rmtree(self.database_path)
 
-    def run_pipeline(self):
+    def run_pipeline(self) -> None:
         documents = self.load_documents()
         chunks = self.chunk_documents(documents)
         self.populate_chroma(chunks)
