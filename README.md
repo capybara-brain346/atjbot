@@ -133,5 +133,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [React](https://reactjs.org/) and [Flask](https://flask.palletsprojects.com/) for building the frontend and backend.
 
 ```
-
-Feel free to modify the sections as needed to fit your project's specifics, especially the repository link, dependencies, and any other relevant information!
