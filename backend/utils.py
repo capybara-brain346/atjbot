@@ -70,7 +70,7 @@ def query_rag(query_text: str) -> Tuple[str, List[str]] | str:
 
     ---
 
-    Answer the following question based on the above context. If the question is a greeting, farewell, or expression of thanks, respond warmly and personally without referencing the context. For queries unrelated to legal content, reply with: "I’m sorry, but I can’t assist with that." Please ensure your response is descriptive and informative based on the context. Answer in {language}.
+    Answer the following question based on the above context. If the question is a greeting, farewell, or expression of thanks, respond warmly and personally without referencing the context. For queries unrelated to legal content, reply with: "I’m sorry, but I can’t assist with that." Please ensure your response is descriptive and informative based on the context. Answer in {language}. Do not hallucinate.
 
     Question: {question}
     """
